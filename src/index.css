@@ -14,3 +14,21 @@
 body {
     background-color: #1B1B1B;
 }
+
+.gold-gradient {
+    background: linear-gradient(to bottom, #FFD700, #FFB90F,#FFFACD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.gold-gradient-border-3 {
+    border-image: linear-gradient(to bottom, #FFD700, #FFB90F,#FFFACD) 8;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.gold-gradient-border-1 {
+    border-image: linear-gradient(to bottom, #FFD700, #FFB90F,#FFFACD) 8;
+    border-width: 1px;
+    border-style: solid;
+}

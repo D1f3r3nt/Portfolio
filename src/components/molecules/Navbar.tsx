@@ -3,6 +3,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import {useState} from "react";
 import {Button} from "../atoms/Button.tsx";
+import {Text} from "../atoms/Text.tsx";
 
 export const Navbar = () => {
 
@@ -32,17 +33,17 @@ export const Navbar = () => {
 
                 <img src={logo} alt="Logo diferent"/>
 
-                <div className='flex flex-col justify-center items-center gap-y-2'>
-                    <p>¿Quién soy?</p>
-                    <p>Aplicaciones</p>
-                    <p>Estudios</p>
-                    <p>Experiencia</p>
-                    <p>Esta página</p>
+                <div className='flex flex-col justify-center items-center gap-y-3'>
+                    <Text value="¿Quién soy?" size="m" gradient underline />
+                    <Text value="Aplicaciones" size="m" gradient />
+                    <Text value="Estudios" size="m" gradient />
+                    <Text value="Experiencia" size="m" gradient />
+                    <Text value="Esta página" size="m" gradient />
                 </div>
 
                 <div className='flex flex-col justify-center items-center gap-y-2 mb-4'>
                     <p> Español </p>
-                    <p> by Marc Santisteban Ruiz </p>
+                    <Text value="by Marc Santisteban Ruiz" size="s" gradient/>
                 </div>
             </div>
         </>
