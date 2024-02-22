@@ -1,10 +1,11 @@
-import {HomePage} from "./pages/HomePage.tsx";
+import {BrowserRouter} from "react-router-dom";
+import {AppRouter} from "./routes/AppRouter.tsx";
 
 function App() {
   return (
-    <>
-      <HomePage />
-    </>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   )
 }
 

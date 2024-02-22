@@ -21,14 +21,18 @@ body {
     -webkit-background-clip: text;
 }
 
-.gold-gradient-border-3 {
-    border-image: linear-gradient(to bottom, #FFD700, #FFB90F,#FFFACD) 8;
-    border-width: 3px;
-    border-style: solid;
+.gold-gradient-image {
+    border: double 3px transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(#2E2E2E, #2E2E2E), linear-gradient(to bottom, #FFD700, #FFB90F,#FFFACD);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
 
-.gold-gradient-border-1 {
-    border-image: linear-gradient(to bottom, #FFD700, #FFB90F,#FFFACD) 8;
-    border-width: 1px;
-    border-style: solid;
+.gold-gradient-button {
+    border: double 1px transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(#2E2E2E, #2E2E2E), linear-gradient(to bottom, #FFD700, #FFB90F,#FFFACD);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
