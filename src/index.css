@@ -36,3 +36,14 @@ body {
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
+
+.dropdown-style {
+    background-color: #2E2E2E;
+    background: linear-gradient(to bottom, #FFD700, #FFB90F,#FFFACD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    outline: none;
+}

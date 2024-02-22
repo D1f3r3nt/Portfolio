@@ -13,12 +13,14 @@ import google from "../assets/icons/google.svg"
 import phone from "../assets/icons/phone-alt.svg"
 
 import profile from "../assets/profilePhoto.jpg";
-import dataES from "../data/es/how_i_am.json";
+import {useTranslation} from "react-i18next";
 
 export const HomePage = () => {
 
+    const [t] = useTranslation("global")
+
     const getCurrentYears = (): string => {
-        const values = dataES.birthday.split('/')
+        const values = t('home.birthday').split('/')
         const initialDate = new Date(Number(values[2]), Number(values[1]), Number(values[0]))
         const currentDate = new Date()
 
@@ -39,21 +41,21 @@ export const HomePage = () => {
             <div className='grid grid-cols-3'>
                 <div className='col-span-2'>
                     <Text value='¿Quién soy?' size='xl' gradient/>
-                    <Text value={dataES.name} size="l" className='mt-3'/>
-                    <Text value={dataES.description} size="m" className='mt-1 text-justify'/>
+                    <Text value={t('home.name')} size="l" className='mt-3'/>
+                    <Text value={t('home.description')} size="m" className='mt-1 text-justify'/>
                 </div>
 
                 <div className="flex flex-col items-center">
                     <img src={profile} alt="Imagen" className="w-[350px] h-[350px] gold-gradient-image"/>
 
                     <div className="flex flex-row mt-8 w-[400px] justify-around">
-                        <GoldButton onClick={() => window.open(dataES.stackOverflowURL, '_blank')}>
+                        <GoldButton onClick={() => window.open(t('home.stackOverflowURL'), '_blank')}>
                             <img src={stackOverflow} alt="Stack Overflow"/>
                         </GoldButton>
-                        <GoldButton onClick={() => window.open(dataES.linkedinURL, '_blank')}>
+                        <GoldButton onClick={() => window.open(t('home.linkedinURL'), '_blank')}>
                             <img src={linkedIn} alt="LinkedIn"/>
                         </GoldButton>
-                        <GoldButton onClick={() => window.open(dataES.githubURL, '_blank')}>
+                        <GoldButton onClick={() => window.open(t('home.githubURL'), '_blank')}>
                             <img src={github} alt="Github"/>
                         </GoldButton>
                         <GoldButton onClick={() => {
@@ -69,19 +71,19 @@ export const HomePage = () => {
                         </div>
                         <div className="flex flex-row gap-x-2">
                             <img src={mapMarker} alt="Map Marker"/>
-                            <Text value={dataES.location} size="m"/>
+                            <Text value={t('home.location')} size="m"/>
                         </div>
                         <div className="flex flex-row gap-x-2">
                             <img src={flag} alt="Languages"/>
-                            <Text value={dataES.languages} size="m"/>
+                            <Text value={t('home.languages')} size="m"/>
                         </div>
                         <div className="flex flex-row gap-x-2">
                             <img src={google} alt="Google"/>
-                            <Text value={dataES.gmail} size="m"/>
+                            <Text value={t('home.gmail')} size="m"/>
                         </div>
                         <div className="flex flex-row gap-x-2">
                             <img src={phone} alt="Phone Number"/>
-                            <Text value={dataES.phone} size="m"/>
+                            <Text value={t('home.phone')} size="m"/>
                         </div>
                     </div>
                 </div>

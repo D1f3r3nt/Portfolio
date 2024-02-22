@@ -5,6 +5,7 @@ import {useState} from "react";
 import {Button} from "../atoms/Button.tsx";
 import {Text} from "../atoms/Text.tsx";
 import {useLocation, useNavigate} from "react-router-dom";
+import {DropdownLanguage} from "../atoms/DropdownLanguage.tsx";
 
 export const Navbar = () => {
     const navigate = useNavigate()
@@ -54,7 +55,7 @@ export const Navbar = () => {
                 </div>
 
                 <div className='flex flex-col justify-center items-center gap-y-2 mb-4'>
-                    <p> Español </p>
+                    <DropdownLanguage />
                     <Text value="by Marc Santisteban Ruiz" size="s" gradient/>
                 </div>
             </div>

@@ -15,9 +15,11 @@
     "@mui/icons-material": "^5.15.10",
     "@mui/material": "^5.15.10",
     "autoprefixer": "^10.4.17",
+    "i18next": "^23.10.0",
     "postcss": "^8.4.35",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^14.0.5",
     "react-router-dom": "6"
   },
   "devDependencies": {
