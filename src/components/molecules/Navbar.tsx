@@ -4,9 +4,11 @@ import CloseIcon from '@mui/icons-material/Close';
 import {useState} from "react";
 import {Button} from "../atoms/Button.tsx";
 import {Text} from "../atoms/Text.tsx";
+import {useLocation, useNavigate} from "react-router-dom";
 
 export const Navbar = () => {
-
+    const navigate = useNavigate()
+    const {pathname} = useLocation()
     const [isOpen, setIsOpen] = useState(false)
 
     return (
@@ -20,7 +22,7 @@ export const Navbar = () => {
                 ring-2 ring-yellow-400 bg-[#2E2E2E]
                 ">
                 {
-                    isOpen ? <CloseIcon /> : <MenuIcon/>
+                    isOpen ? <CloseIcon/> : <MenuIcon/>
                 }
             </Button>
 
@@ -34,11 +36,21 @@ export const Navbar = () => {
                 <img src={logo} alt="Logo diferent"/>
 
                 <div className='flex flex-col justify-center items-center gap-y-3'>
-                    <Text value="¿Quién soy?" size="m" gradient underline />
-                    <Text value="Aplicaciones" size="m" gradient />
-                    <Text value="Estudios" size="m" gradient />
-                    <Text value="Experiencia" size="m" gradient />
-                    <Text value="Esta página" size="m" gradient />
+                    <button onClick={() => navigate('/')}>
+                        <Text value="¿Quién soy?" size="m" gradient underline={pathname === '/'}/>
+                    </button>
+                    <button onClick={() => navigate('/apps')}>
+                        <Text value="Aplicaciones" size="m" gradient underline={pathname === '/apps'}/>
+                    </button>
+                    <button onClick={() => navigate('/studies')}>
+                        <Text value="Estudios" size="m" gradient underline={pathname === '/studies'}/>
+                    </button>
+                    <button onClick={() => navigate('/experience')}>
+                        <Text value="Experiencia" size="m" gradient underline={pathname === '/experience'}/>
+                    </button>
+                    <button onClick={() => navigate('/about')}>
+                        <Text value="Esta página" size="m" gradient underline={pathname === '/about'}/>
+                    </button>
                 </div>
 
                 <div className='flex flex-col justify-center items-center gap-y-2 mb-4'>
