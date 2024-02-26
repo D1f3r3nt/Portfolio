@@ -19,7 +19,7 @@ export const StudiesPage = () => {
         <Page>
             <Text value={t('header.studies')} size={'xl'} gradient/>
 
-            <div className='w-[100%] flex flex-col items-center gap-y-5'>
+            <div className='w-[100%] flex flex-col items-center gap-y-5 mt-5'>
                 {
                     degrees.reverse().map((degree, i) => {
                         return (
@@ -32,6 +32,12 @@ export const StudiesPage = () => {
                         )
                     })
                 }
+            </div>
+
+            <Text value={t('header.course')} size={'xl'} gradient className={'mt-10'}/>
+
+            <div className='w-[100%] flex flex-col items-center gap-y-5 mt-10'>
+
             </div>
         </Page>
     )

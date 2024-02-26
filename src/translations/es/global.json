@@ -4,7 +4,8 @@
     "apps": "Aplicaciones",
     "studies": "Estudios",
     "experience": "Experiencia",
-    "about": "Esta página"
+    "about": "Esta página",
+    "course": "Certificados"
   },
   "home": {
     "name": "Marc Santisteban Ruiz",
@@ -34,6 +35,14 @@
         "title": "Desarrollo de Apps Móviles Full Stack Bootcamp",
         "date": "01/2023 - 04/2024",
         "description": "El Bootcamp Full Stack Mobile de KeepCoding proporciona un dominio completo de los principales componentes y arquitecturas del stack mobile, formando a nivel avanzado en Swift nativo, Kotlin nativo, React Native y Flutter."
+      }
+    ],
+    "course": [
+      {
+        "title": "Introducción al Desarrollor Web I",
+        "date": "04/2021",
+        "description": "En este curso realizado en Google, aprendí las nociones básicas del desarrollo web, aprendiendo aptitudes como HTML básico y CSS básico",
+        "image": "google_introduccion_al_desarrollo_web_1.png"
       }
     ]
   },
