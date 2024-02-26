@@ -4,9 +4,10 @@ interface TextProps {
     underline?: boolean;
     gradient?: boolean;
     className?: string;
+    id?: string;
 }
 
-export const Text = ({value, size, underline = false, gradient = false, className = ''}: TextProps) => {
+export const Text = ({value, size, underline = false, gradient = false, className = '', id}: TextProps) => {
 
     let fontSize: string = ''
 
@@ -28,7 +29,7 @@ export const Text = ({value, size, underline = false, gradient = false, classNam
     }
 
     return (
-        <p className={`
+        <p id={id} className={`
             ${gradient ? 'gold-gradient' : 'text-[#ECECEC]'}
             ${underline ? 'underline' : ''}
             ${fontSize}

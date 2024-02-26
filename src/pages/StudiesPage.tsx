@@ -3,6 +3,7 @@ import {Text} from "../components/atoms/Text.tsx";
 import {CenterCard} from "../components/molecules/CenterCard.tsx";
 import {useTranslation} from "react-i18next";
 import {ImageCard} from "../components/molecules/ImageCard.tsx";
+import {DownButton} from "../components/atoms/DownButton.tsx";
 
 interface DegreeInterface {
     title: string;
@@ -26,6 +27,9 @@ export const StudiesPage = () => {
 
     return (
         <Page>
+
+            <DownButton />
+
             <Text value={t('header.studies')} size={'xl'} gradient/>
 
             <div className='w-[100%] flex flex-col items-center gap-y-5 mt-5'>
@@ -43,7 +47,7 @@ export const StudiesPage = () => {
                 }
             </div>
 
-            <Text value={t('header.course')} size={'xl'} gradient className={'mt-10'}/>
+            <Text id="courses" value={t('header.course')} size={'xl'} gradient className={'mt-10'}/>
 
             <div className='w-[100%] flex flex-col items-center gap-y-16 mt-10'>
                 {
