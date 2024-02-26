@@ -36,5 +36,19 @@
         "description": "KeepCoding's Full Stack Mobile Bootcamp provides a complete mastery of the main components and architectures of the mobile stack, training at an advanced level in native Swift, native Kotlin, React Native and Flutter."
       }
     ]
+  },
+  "experience": {
+    "data": [
+      {
+        "title": "Full Stack Developer",
+        "date": "07/2022 - 06/2023",
+        "description": "At Arteco Consulting SL, I worked developing frontend and backend code for Melia Internationals, a hotel company."
+      },
+      {
+        "title": "Full Stack Web and Mobile Developer",
+        "date": "06/2023 - currently",
+        "description": "In this company I have worked as a fullstack web and mobile developer, that is, I have worked with frontend technologies as now ReactJS and Thymeleaft, I have worked with backend technologies as now SpringBoot and Spring Gateway, and I have worked with mobile technologies as now Flutter, where I have made the architecture of a whole project, I have designed the screens with UI/UX techniques and where I am familiar with Block.\n\nOn the other hand I have worked with Jira, Bitbucket and Jenkins and sometimes I have had to configure it, I have worked with Docker (using it and creating it), in terms of architecture I have worked with hexagonal architecture and in backend we have always worked with TDD."
+      }
+    ]
   }
 }
