@@ -36,6 +36,68 @@
         "date": "01/2023 - 04/2024",
         "description": "KeepCoding's Full Stack Mobile Bootcamp provides a complete mastery of the main components and architectures of the mobile stack, training at an advanced level in native Swift, native Kotlin, React Native and Flutter."
       }
+    ],
+    "course": [
+      {
+        "title": "Introduction to Web Development I",
+        "date": "04/2021",
+        "description": "In this course held at Google, I learned the basics of web development, learning skills such as basic HTML and basic CSS.",
+        "image": "google_introduccion_al_desarrollo_web_1.png"
+      },
+      {
+        "title": "Mobile Apps Development",
+        "date": "06/2021",
+        "description": "In this course held at Google, I learned the basics of mobile app development, learning skills such as Android and iOS operating systems, application deployment on Google Play and mobile marketing and monetization avenues.",
+        "image": "google_desarrollo_de_apps_moviles.png"
+      },
+      {
+        "title": "AWS Cloud Particioner Essentials",
+        "date": "12/2021",
+        "description": "In this course on Amazon Web Service, I learned the basics of how to set up a server, the different types of services offered by AWS and the ways to upload applications to AWS.",
+        "image": "AWS_course_cloud_particioner.png"
+      },
+      {
+        "title": "Introduction to Web Development II",
+        "date": "07/2022",
+        "description": "In this course held at Google, I continued learning the basics of web development, learning skills such as advanced HTML, advanced CSS and Bootstrap.",
+        "image": "google_introduccion_al_desarrollo_web_2.png"
+      },
+      {
+        "title": "Google Cloud Computing",
+        "date": "09/2022",
+        "description": "In this course held at Google, I learned the basics of how to set up a server, the different types of services offered by Google and the ways to upload and deploy applications in Google Cloud.",
+        "image": "google_cloud_computing.png"
+      },
+      {
+        "title": "Kotlin for rokies",
+        "date": "03/2023",
+        "description": "In this course held at KeepCoding, I learned both the basics and advanced techniques of Kotlin programming.",
+        "image": "curso_de_kotlin_desde_cero.png"
+      },
+      {
+        "title": "Docker for developers",
+        "date": "03/2023",
+        "description": "In this course held at OpenWebinars, I learned the principles of Docker as well as how to create Dockerfiles or docker-compose.",
+        "image": "curso_de_docker.png"
+      },
+      {
+        "title": "UI/UX Design",
+        "date": "09/2023",
+        "description": "Thanks to the follow up of KeepCoding's Mobile App Development Bootcamp I have managed to obtain the UI/UX design certificate, where I have learned current UI/UX techniques, as now can be standards of IOS and Android design, future techniques such as Neomorphism.",
+        "image": "UI_UX.png"
+      },
+      {
+        "title": "Swift for rokies",
+        "date": "09/2023",
+        "description": "Thanks to the follow-up of KeepCoding's Mobile App Development Bootcamp, I managed to obtain the Swift programming certificate, where I learned both the basic notions and advanced techniques of Swift programming.",
+        "image": "swift.png"
+      },
+      {
+        "title": "IOS Fundamentals",
+        "date": "09/2023",
+        "description": "Thanks to the follow-up of the Mobile App Development Bootcamp at KeepCoding, I have obtained the IOS Fundamentals certificate, where I have acquired basic knowledge of Storyboard and XIBs development programming in Swift UIKit.",
+        "image": "fundamentos_IOS.png"
+      }
     ]
   },
   "experience": {
