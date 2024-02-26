@@ -10,7 +10,7 @@ import global_en from "./translations/en/global.json";
 
 i18next.init({
     interpolation: { escapeValue: false },
-    lng: "en",
+    lng: localStorage.getItem('lang') ?? 'en',
     resources: {
         es: {
             global: global_es
