@@ -40,7 +40,7 @@ export const HomePage = () => {
         <Page>
             <div className='grid grid-cols-3'>
                 <div className='col-span-2'>
-                    <Text value='¿Quién soy?' size='xl' gradient/>
+                    <Text value={t('header.home')} size='xl' gradient/>
                     <Text value={t('home.name')} size="l" className='mt-3'/>
                     <Text value={t('home.description')} size="m" className='mt-1 text-justify'/>
                 </div>
@@ -59,8 +59,9 @@ export const HomePage = () => {
                             <img src={github} alt="Github"/>
                         </GoldButton>
                         <GoldButton onClick={() => {
+                            // TODO: Descargar PDF
                         }}>
-                            <img src={download} alt="Github"/>
+                            <img src={download} alt="Download"/>
                         </GoldButton>
                     </div>
 

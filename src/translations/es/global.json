@@ -1,4 +1,11 @@
 {
+  "header": {
+    "home": "¿Quién soy?",
+    "apps": "Aplicaciones",
+    "studies": "Estudios",
+    "experience": "Experiencia",
+    "about": "Esta página"
+  },
   "home": {
     "name": "Marc Santisteban Ruiz",
     "description": "Desarrollador fullstack, actualmente estoy trabajando en Arteco Consulting y tengo un\naño y medio de experiencia en esta empresa, cuento con mas de 4 años de experiencia programando\nde manera individual, he tocado diversas tecnologias pero con la que mas trabajo es con\nJava y con React.js. Capaz de trabajar en equipo o de forma independiente, según las\nnecesidades, con ganas de aprender y afán de superación.\n\nActualmente esto cursando un bootcamp de fullstack mobile, ya que al acabar me gustaria\nevolucionar hacia un perfil de fullstack mobile (IOS/Android), con conocimientos en React\nNative, Flutter, Swift y Kotlin.\n\nPara mas información no dudes en visitar mi pagina web, donde subo mis proyectos personales (junto con su Github), mis conocimientos, etc.",
@@ -10,5 +17,24 @@
     "linkedinURL": "https://www.linkedin.com/in/marc-santisteban-ruiz/",
     "githubURL": "https://github.com/D1f3r3nt?tab=repositories",
     "stackOverflowURL": "https://stackoverflow.com/users/22357684/marc-santisteban"
+  },
+  "studies": {
+    "degree": [
+      {
+        "title": "Bachillerato científico",
+        "date": "09/2019 - 06/2021",
+        "description": "Estudié en el IES S'Arenal donde cursé el bachillerato científico. Durante mi tiempo allí, desarrollé habilidades sólidas en JavaScript, Java, MySQL, CSS y HTML. Adquirí estas competencias a través de prácticas, exámenes y trabajos que desafiaron mi comprensión y destreza en programación y diseño web. Estas experiencias enriquecieron mi formación y me prepararon para enfrentar los desafíos del mundo tecnológico con confianza y habilidad."
+      },
+      {
+        "title": "Grado superior de Desarrollo de Aplicaciones Multiplataforma",
+        "date": "09/2021 - 06/2023",
+        "description": "Estudié en el CIFP Pau Casesnoves el Grado Superior de Desarrollo de Aplicaciones Multiplataforma, donde adquirí habilidades en Flutter, Linux, Git y GitHub, Dart, MongoDB y Java. Estas competencias las desarrollé a través de prácticas, exámenes y proyectos, donde obtuve una media final de 9,7. Gracias a esta formación, me siento capacitado para enfrentar desafíos en el mundo del desarrollo de software con solidez y confianza."
+      },
+      {
+        "title": "Desarrollo de Apps Móviles Full Stack Bootcamp",
+        "date": "01/2023 - 04/2024",
+        "description": "El Bootcamp Full Stack Mobile de KeepCoding proporciona un dominio completo de los principales componentes y arquitecturas del stack mobile, formando a nivel avanzado en Swift nativo, Kotlin nativo, React Native y Flutter."
+      }
+    ]
   }
 }
