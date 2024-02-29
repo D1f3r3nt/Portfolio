@@ -14,6 +14,7 @@ import phone from "../assets/icons/phone-alt.svg"
 
 import profile from "../assets/profilePhoto.jpg";
 import {useTranslation} from "react-i18next";
+import {navigateOutside} from "../helpers/helper.ts";
 
 export const HomePage = () => {
 
@@ -49,13 +50,13 @@ export const HomePage = () => {
                     <img src={profile} alt="Imagen" className="w-[350px] h-[350px] gold-gradient-image"/>
 
                     <div className="flex flex-row mt-8 w-[400px] justify-around">
-                        <GoldButton onClick={() => window.open(t('home.stackOverflowURL'), '_blank')}>
+                        <GoldButton onClick={() => navigateOutside(t('home.stackOverflowURL'))}>
                             <img src={stackOverflow} alt="Stack Overflow"/>
                         </GoldButton>
-                        <GoldButton onClick={() => window.open(t('home.linkedinURL'), '_blank')}>
+                        <GoldButton onClick={() => navigateOutside(t('home.linkedinURL'))}>
                             <img src={linkedIn} alt="LinkedIn"/>
                         </GoldButton>
-                        <GoldButton onClick={() => window.open(t('home.githubURL'), '_blank')}>
+                        <GoldButton onClick={() => navigateOutside(t('home.githubURL'))}>
                             <img src={github} alt="Github"/>
                         </GoldButton>
                         <GoldButton onClick={() => {

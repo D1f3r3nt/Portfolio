@@ -6,6 +6,7 @@ import website from "../../assets/icons/globe-americas-enabled.svg"
 import appStore from "../../assets/icons/app-store.svg"
 import googlePlay from "../../assets/icons/google-play.svg"
 import github from "../../assets/icons/github.svg"
+import {navigateOutside} from "../../helpers/helper.ts";
 
 interface AppCardProps {
     app: AppsInterface;
@@ -13,12 +14,6 @@ interface AppCardProps {
 }
 
 export const AppCard = ({app, imageFirst = false}: AppCardProps) => {
-
-    console.log(app.github)
-
-    const navigateTo = (url: string) => {
-        window.open(url, '_blank')
-    }
 
     return (
         <div className='w-[100%] max-h-[500px] flex flex-row'>
@@ -32,28 +27,28 @@ export const AppCard = ({app, imageFirst = false}: AppCardProps) => {
                     <div className='flex flex-row gap-x-4'>
                         {
                             app.url &&
-                            <GoldButton onClick={() => navigateTo(app.url!)} >
+                            <GoldButton onClick={() => navigateOutside(app.url!)} >
                                 <img src={website} alt="website"/>
                             </GoldButton>
                         }
 
                         {
                             app.appStore &&
-                            <GoldButton onClick={() => navigateTo(app.appStore!)} >
+                            <GoldButton onClick={() => navigateOutside(app.appStore!)} >
                                 <img src={appStore} alt="app store"/>
                             </GoldButton>
                         }
 
                         {
                             app.googlePlay &&
-                            <GoldButton onClick={() => navigateTo(app.googlePlay!)} >
+                            <GoldButton onClick={() => navigateOutside(app.googlePlay!)} >
                                 <img src={googlePlay} alt="google play"/>
                             </GoldButton>
                         }
 
                         {
                             app.github &&
-                            <GoldButton onClick={() => navigateTo(app.github!)} >
+                            <GoldButton onClick={() => navigateOutside(app.github!)} >
                                 <img src={github} alt="github"/>
                             </GoldButton>
                         }
