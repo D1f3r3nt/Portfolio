@@ -7,6 +7,9 @@
     "about": "Esta página",
     "course": "Certificados"
   },
+  "common": {
+    "search": "Buscar"
+  },
   "home": {
     "name": "Marc Santisteban Ruiz",
     "description": "Desarrollador fullstack, actualmente estoy trabajando en Arteco Consulting y tengo un\naño y medio de experiencia en esta empresa, cuento con mas de 4 años de experiencia programando\nde manera individual, he tocado diversas tecnologias pero con la que mas trabajo es con\nJava y con React.js. Capaz de trabajar en equipo o de forma independiente, según las\nnecesidades, con ganas de aprender y afán de superación.\n\nActualmente esto cursando un bootcamp de fullstack mobile, ya que al acabar me gustaria\nevolucionar hacia un perfil de fullstack mobile (IOS/Android), con conocimientos en React\nNative, Flutter, Swift y Kotlin.\n\nPara mas información no dudes en visitar mi pagina web, donde subo mis proyectos personales (junto con su Github), mis conocimientos, etc.",
@@ -111,6 +114,20 @@
         "title": "Desarrollador Full Stack Web Y Mobile",
         "date": "06/2023 - actual",
         "description": "En Arteco Consulting SL, he trabajado como desarrollador fullstack web y móvil, es decir, he trabajado con tecnologías frontend como ahora ReactJS y Thymeleaft, he trabajado con tecnologías backend como ahora SpringBoot y Spring Gateway, y he trabajado con tecnologías móviles como ahora Flutter, donde he realizado la arquitectura de todo un proyecto, he diseñado las pantallas con técnicas UI/UX y donde estoy familiarizado con Block.\n\nPor otro lado he trabajado con Jira, Bitbucket y Jenkins y a veces me ha tocado configurarlo, he trabajado con Docker (usándolo y creándolo), en cuanto a arquitectura he trabajado con arquitectura hexagonal y en backend siempre hemos trabajado con TDD."
+      }
+    ]
+  },
+  "apps": {
+    "data": [
+      {
+        "name": "Savings",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacinia sem enim, at facilisis quam tincidunt et. Sed pretium diam quis dui feugiat, vitae dictum nisi condimentum. Nulla imperdiet lectus in quam tempor vulputate. Sed in ante vel tortor lobortis placerat. Integer fermentum ante magna. Fusce scelerisque luctus cursus. Sed consequat leo vel felis volutpat, at ornare sem lobortis. Duis sed imperdiet nisl. Fusce in sodales augue. Etiam pellentesque ante leo. Nulla posuere venenatis vulputate. Donec malesuada molestie vulputate. Morbi vitae turpis dapibus, imperdiet tellus vel, rhoncus dolor. Phasellus et tortor condimentum, luctus magna et, volutpat felis. Etiam faucibus laoreet lectus. Aliquam erat volutpat.",
+        "image": "mockUpOne.png",
+        "github": "",
+        "url": null,
+        "type": "android apple",
+        "googlePlay": null,
+        "appStore": null
       }
     ]
   }

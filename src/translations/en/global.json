@@ -7,6 +7,9 @@
     "about": "About this page",
     "course": "Certificates"
   },
+  "common": {
+    "search": "Search"
+  },
   "home": {
     "name": "Marc Santisteban Ruiz",
     "description": "Fullstack developer, I am currently working in Arteco Consulting and I have almost a year of experience in this company.\nyear of experience in this company, I have more than 4 years of experience programming individually.\nindividually, I have worked with several technologies but the one I work with the most is with\nJava and React.js. Able to work in a team or independently, depending on the needs, willing to learn and\nI am eager to learn and eager to improve.\n\nI am currently attending a bootcamp of fullstack mobile, because at the end I would like to evolve towards a fullstack mobile profile.\nevolve towards a profile of fullstack mobile (IOS / Android), with knowledge in React\nNative, Flutter, Swift and Kotlin.\n\nFor more information feel free to visit my website, where I upload my personal projects (along with its Github), my knowledge, etc.",
@@ -111,6 +114,20 @@
         "title": "Full Stack Web and Mobile Developer",
         "date": "06/2023 - currently",
         "description": "At Arteco Consulting SL, I have worked as a fullstack web and mobile developer, that is, I have worked with frontend technologies as now ReactJS and Thymeleaft, I have worked with backend technologies as now SpringBoot and Spring Gateway, and I have worked with mobile technologies as now Flutter, where I have made the architecture of a whole project, I have designed the screens with UI/UX techniques and where I am familiar with Block.\n\nOn the other hand I have worked with Jira, Bitbucket and Jenkins and sometimes I have had to configure it, I have worked with Docker (using it and creating it), in terms of architecture I have worked with hexagonal architecture and in backend we have always worked with TDD."
+      }
+    ]
+  },
+  "apps": {
+    "data": [
+      {
+        "name": "Savings",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacinia sem enim, at facilisis quam tincidunt et. Sed pretium diam quis dui feugiat, vitae dictum nisi condimentum. Nulla imperdiet lectus in quam tempor vulputate. Sed in ante vel tortor lobortis placerat. Integer fermentum ante magna. Fusce scelerisque luctus cursus. Sed consequat leo vel felis volutpat, at ornare sem lobortis. Duis sed imperdiet nisl. Fusce in sodales augue. Etiam pellentesque ante leo. Nulla posuere venenatis vulputate. Donec malesuada molestie vulputate. Morbi vitae turpis dapibus, imperdiet tellus vel, rhoncus dolor. Phasellus et tortor condimentum, luctus magna et, volutpat felis. Etiam faucibus laoreet lectus. Aliquam erat volutpat.",
+        "image": "mockUpOne.png",
+        "github": "",
+        "url": null,
+        "type": "android apple",
+        "googlePlay": null,
+        "appStore": null
       }
     ]
   }
