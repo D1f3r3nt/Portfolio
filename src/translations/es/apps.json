@@ -3,7 +3,7 @@
     {
       "name": "Caparrot",
       "description": "Es un proyecto de Flutter que pretende dar a conocer la cultura de los Caparrots, típicos de Sa Pobla (Mallorca), a través de juegos interactivos y culturales.\n\nSu estilo de juego es muy similar a Pokemon Go, consiste en caminar por las calles y mediante tu localización localizar a los caparrots que están cerca para atraparlos, para atraparlos haces una pregunta cultural sobre el una pregunta cultural sobre el pueblo y para encontrar a los otros caparrots vas obteniendo pistas mientras caminas. mientras caminas.",
-      "image": "mockUpOne.png",
+      "image": "caparrots.png",
       "github": "https://github.com/D1f3r3nt/Caparrot.git",
       "url": null,
       "type": "android apple",
@@ -13,7 +13,7 @@
     {
       "name": "Sporth Backend",
       "description": "Este proyecto desarrollado en Node.js, es un backend para Firebase Functions, esto se utiliza para tener un mejor control del backend de la aplicación Sporth.",
-      "image": "mockUpOne.png",
+      "image": "sporthBack.png",
       "github": "https://github.com/D1f3r3nt/Sporth-Backend.git",
       "url": null,
       "type": "server",
@@ -23,7 +23,7 @@
     {
       "name": "Sporth",
       "description": "Sporth es una aplicación que fue desplegada en Google Play, el objetivo principal de Sporth era crear una red social dedicada a los amantes de los deportes de equipo, para ayudarles a encontrar clubes o grupos para realizar dicho deporte. o grupos para realizar dicho deporte.\n\nEsta aplicación está desarrollada en Flutter, ya que buscábamos una forma rápida de desarrollar una aplicación tanto para iOS como para Android. para desarrollar una aplicación tanto para iOS como para Android.\n\nSporth tiene un backend integrado en Firebase, donde se consumen los productos de Firebase Analytics (estadísticas). Productos Firebase Analytics (estadísticas), Firebase Authentication (autenticación con cuenta Google), Firebase Database (almacenamiento de datos), Firebase Storage (almacenamiento de imágenes), Firebase Messaging (notificaciones).",
-      "image": "mockUpOne.png",
+      "image": "sporthApp.png",
       "github": "https://github.com/D1f3r3nt/Sporth.git",
       "url": null,
       "type": "android apple",
@@ -33,7 +33,7 @@
     {
       "name": "Swift Practice",
       "description": "Este es un proyecto dedicado exclusivamente a practicar todas las técnicas del lenguaje de programación Swift. Así como, struct o clase, gestión de memoria (ARC), clousures, protocolos e interfaces, extensiones y manejo de errores.",
-      "image": "mockUpOne.png",
+      "image": "swift.png",
       "github": "https://github.com/D1f3r3nt/Swift-Practice.git",
       "url": null,
       "type": "apple",
@@ -43,7 +43,7 @@
     {
       "name": "Gif Expert App",
       "description": "Este proyecto está relacionado con la práctica de React JS + Vite, en este proyecto se ha puesto en práctica la metodología TDD con React y tecnologías de testing, como es ahora jest.",
-      "image": "mockUpOne.png",
+      "image": "gifWeb.png",
       "github": "https://github.com/D1f3r3nt/Gif-Expert-App.git",
       "url": null,
       "type": "website",
@@ -53,7 +53,7 @@
     {
       "name": "Dragonball Practice iOS",
       "description": "Para esta práctica se ha utilizado la arquitectura MVC y para el diseño de la interfaz se ha utilizado Xibs, también se han incluido pruebas unitarias para la capa del modelo.\n\nEsta es una práctica del Mobile Apps Bootcamp, donde se ha desarrollado una aplicación para iOS, la cual tiene como objetivo mostrar una lista de héroes de Dragonball y en El objetivo es mostrar una lista de héroes de Dragonball y en caso de hacer click sobre ellos mostrar una página de detalle, además en esta misma página se puede navegar a una tercera página para mostrar las transformaciones de este héroe.",
-      "image": "mockUpOne.png",
+      "image": "dragonballPracticeIOS.png",
       "github": "https://github.com/D1f3r3nt/Dragonball-Practice-iOS.git",
       "url": null,
       "type": "apple",
@@ -63,7 +63,7 @@
     {
       "name": "SpaceX MVVM",
       "description": "Para este proyecto hemos utilizado técnicas ya conocidas como Xibs para el diseño de interfaces, pero el objetivo principal de este proyecto era practicar la arquitectura MVVM.\n\nEsta aplicación iOS es una aplicación para mostrar información sobre las misiones realizadas por SpaceX, esta información se extrae de una API de SpaceX. Consta de cuatro pantallas: Una pantalla Splash, la pantalla principal de la misión (un listado), la pantalla de detalle de la misión y desde esta pantalla se puede navegar a otra pantalla donde se puede ver la información del cohete que se utilizó.\n\nEsta aplicación también tiene mappers y DTO's, para la gestión de la información y también tiene una lógica para abrir enlaces en safedrive. con una lógica para abrir enlaces en safari, como ahora, videos de youtube.",
-      "image": "mockUpOne.png",
+      "image": "spaceX.png",
       "github": "https://github.com/D1f3r3nt/SpaceX-MVVM.git",
       "url": null,
       "type": "apple",
@@ -73,7 +73,7 @@
     {
       "name": "Dragonball Advanced iOS",
       "description": "El objetivo de esta aplicación para iOS es poner en práctica los conocimientos obtenidos con Xibs, también los conocimientos de Core Data y Tests.\n\nEsta aplicación consta de un Log In, donde en caso de loguearse exitosamente, la información se guardará en Keychain, una vez logueado exitosamente, se mostrará una lista de superhéroes de dragonball, esta información se obtiene a través de una API, también se mostrará la posición de estos en un mapa y a través del mapa o de la lista se podrá acceder a una pantalla de detalle.\n\nPara mostrar la información de la lista, primero se buscará en Core Data si la llamada al API está cacheada, en caso de no estarlo se realizará la llamada al API. Se realizará la llamada al API, también como extra hemos implementado una función de búsqueda.",
-      "image": "mockUpOne.png",
+      "image": "advancedIOS.png",
       "github": "https://github.com/D1f3r3nt/Dragonball-Practice-Advanced-iOS.git",
       "url": null,
       "type": "apple",
@@ -83,7 +83,7 @@
     {
       "name": "Marvel Practice SwiftUI",
       "description": "En esta aplicación para iOS se ha utilizado la tecnología Swift UI y la arquitectura MVVM, también se ha utilizado Combine para procesar las llamadas a la API, finalmente para validar el correcto funcionamiento se han realizado pruebas y se ha obtenido una cobertura del 80%. se han realizado pruebas y se ha obtenido una cobertura del 80%.\n\nEl diseño de esta aplicación proviene de un diseño previo en Figma, esta aplicación cuenta con un Log In, donde en caso de éxito la información se guarda en Keychain, luego consta de una lista donde se muestran los héroes de Marvel. Héroes Marvel, esta información es extraída de una API, si haces click en un héroe navegarás a la pantalla de detalles.",
-      "image": "mockUpOne.png",
+      "image": "marvelSwiftUI.png",
       "github": "https://github.com/D1f3r3nt/Marvel-Practice-SwiftUI.git",
       "url": null,
       "type": "apple",
@@ -93,7 +93,7 @@
     {
       "name": "Dragonball Practice Android",
       "description": "Esta aplicación android está desarrollada con una arquitectura MVVM y con XML/Kotlin, el objetivo principal de esta aplicación es mostrar una lista de superhéroes objetivo principal de esta aplicación es mostrar una lista de superhéroes extraída de la API de dragonball. la API de dragonball, después de iniciar sesión, la lista consiste en una lógica de juego, donde en la pantalla de detalle hay dos botones que la pantalla de detalle hay dos botones que implican una acción, el primero es curar al héroe y el segundo es al héroe y el segundo es herirlo. En caso de que un héroe no tenga más vida, no podrá ser seleccionado en la lista. seleccionado en la lista.\n\nFinalmente en la propia lista hay un Botón de Acción Flotante con la función de curar a todos los héroes al máximo. todos los héroes al máximo.\n\nAdemás esta aplicación tiene persistencia, para guardar los valores de vida.",
-      "image": "mockUpOne.png",
+      "image": "dragonballAndroid.png",
       "github": "https://github.com/D1f3r3nt/Dragonball-Practice-Android.git",
       "url": null,
       "type": "android",
@@ -103,7 +103,7 @@
     {
       "name": "Dragonball Practice Advanced Android",
       "description": "Esta aplicación android está construida con XML/Kotlin, principios SOLID, una arquitectura MVVM principios SOLID, una arquitectura MVVM, se ha utilizado la base de datos Room para la caché de las llamadas API, para la base de datos Room, para la caché de las llamadas API, para las llamadas API se ha utilizado Retrofit Retrofit, se ha utilizado inyección de dependencias con Hilt y se ha utilizado la tecnología Google Maps.\n\nLa aplicación está compuesta por un Login, donde en caso de éxito la información se guardará en Preferencias Compartidas. la información se guardará en Preferencias Compartidas, también tiene una lista donde se muestran los héroes de arrastre donde se muestran los héroes de dragonball, también la aplicación tiene una lógica de favoritos. una lógica de favoritos.\n\nPor último, se han realizado pruebas con tests unitarios reales, mocks y fakes.",
-      "image": "mockUpOne.png",
+      "image": "dragonballAdvancedAndroid.png",
       "github": "https://github.com/D1f3r3nt/Dragonball-Practice-Advanced-Android.git",
       "url": null,
       "type": "android",
@@ -113,7 +113,7 @@
     {
       "name": "Marvel Practice Andorid Compose",
       "description": "Esta aplicación android está desarrollada con Android Compose y utilizando corrutinas (Kotlin Flow), se ha utilizado una arquitectura MVVM y se han realizado pruebas unitarias y pruebas de UI, el objetivo es crear una lista de héroes marvel, consumiendo la información de la API de marvel, la información se almacena en caché con Room y esto permite realizar una programación reactiva, ya que la aplicación tiene una lógica para establecer favoritos.",
-      "image": "mockUpOne.png",
+      "image": "androidCompose.png",
       "github": "https://github.com/D1f3r3nt/Marvel-Practice-Android-Compose.git",
       "url": null,
       "type": "android",
