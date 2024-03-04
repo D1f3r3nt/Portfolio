@@ -18,10 +18,11 @@ import {navigateOutside} from "../helpers/helper.ts";
 
 export const HomePage = () => {
 
-    const [t] = useTranslation("global")
+    const [global] = useTranslation("global")
+    const [home] = useTranslation("home")
 
     const getCurrentYears = (): string => {
-        const values = t('home.birthday').split('/')
+        const values = home('birthday').split('/')
         const initialDate = new Date(Number(values[2]), Number(values[1]), Number(values[0]))
         const currentDate = new Date()
 
@@ -41,22 +42,22 @@ export const HomePage = () => {
         <Page>
             <div className='sm:grid sm:grid-cols-3 flex flex-col-reverse'>
                 <div className='col-span-2'>
-                    <Text value={t('header.home')} size='xl' gradient/>
-                    <Text value={t('home.name')} size="l" className='mt-3'/>
-                    <Text value={t('home.description')} size="m" className='mt-1 text-justify'/>
+                    <Text value={global('header.home')} size='xl' gradient/>
+                    <Text value={home('name')} size="l" className='mt-3'/>
+                    <Text value={home('description')} size="m" className='mt-1 text-justify'/>
                 </div>
 
                 <div className="flex flex-col items-center mb-5">
                     <img src={profile} alt="Imagen" className="sm:w-[350px] sm:h-[350px] w-[250px] h-[250px] gold-gradient-image"/>
 
                     <div className="flex flex-row mt-8 max-w-[400px] w-[100%] justify-around">
-                        <GoldButton onClick={() => navigateOutside(t('home.stackOverflowURL'))}>
+                        <GoldButton onClick={() => navigateOutside(home('stackOverflowURL'))}>
                             <img src={stackOverflow} alt="Stack Overflow"/>
                         </GoldButton>
-                        <GoldButton onClick={() => navigateOutside(t('home.linkedinURL'))}>
+                        <GoldButton onClick={() => navigateOutside(home('linkedinURL'))}>
                             <img src={linkedIn} alt="LinkedIn"/>
                         </GoldButton>
-                        <GoldButton onClick={() => navigateOutside(t('home.githubURL'))}>
+                        <GoldButton onClick={() => navigateOutside(home('githubURL'))}>
                             <img src={github} alt="Github"/>
                         </GoldButton>
                         <GoldButton onClick={() => {
@@ -73,19 +74,19 @@ export const HomePage = () => {
                         </div>
                         <div className="flex flex-row gap-x-2">
                             <img src={mapMarker} alt="Map Marker"/>
-                            <Text value={t('home.location')} size="m"/>
+                            <Text value={home('location')} size="m"/>
                         </div>
                         <div className="flex flex-row gap-x-2">
                             <img src={flag} alt="Languages"/>
-                            <Text value={t('home.languages')} size="m"/>
+                            <Text value={home('languages')} size="m"/>
                         </div>
                         <div className="flex flex-row gap-x-2">
                             <img src={google} alt="Google"/>
-                            <Text value={t('home.gmail')} size="m"/>
+                            <Text value={home('gmail')} size="m"/>
                         </div>
                         <div className="flex flex-row gap-x-2">
                             <img src={phone} alt="Phone Number"/>
-                            <Text value={t('home.phone')} size="m"/>
+                            <Text value={home('phone')} size="m"/>
                         </div>
                     </div>
                 </div>

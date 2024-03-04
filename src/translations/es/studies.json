@@ -1,0 +1,81 @@
+{
+  "degree": [
+    {
+      "title": "Bachillerato científico",
+      "date": "09/2019 - 06/2021",
+      "description": "Estudié en el IES S'Arenal donde cursé el bachillerato científico. Durante mi tiempo allí, desarrollé habilidades sólidas en JavaScript, Java, MySQL, CSS y HTML. Adquirí estas competencias a través de prácticas, exámenes y trabajos que desafiaron mi comprensión y destreza en programación y diseño web. Estas experiencias enriquecieron mi formación y me prepararon para enfrentar los desafíos del mundo tecnológico con confianza y habilidad."
+    },
+    {
+      "title": "Grado superior de Desarrollo de Aplicaciones Multiplataforma",
+      "date": "09/2021 - 06/2023",
+      "description": "Estudié en el CIFP Pau Casesnoves el Grado Superior de Desarrollo de Aplicaciones Multiplataforma, donde adquirí habilidades en Flutter, Linux, Git y GitHub, Dart, MongoDB y Java. Estas competencias las desarrollé a través de prácticas, exámenes y proyectos, donde obtuve una media final de 9,7. Gracias a esta formación, me siento capacitado para enfrentar desafíos en el mundo del desarrollo de software con solidez y confianza."
+    },
+    {
+      "title": "Desarrollo de Apps Móviles Full Stack Bootcamp",
+      "date": "01/2023 - 04/2024",
+      "description": "El Bootcamp Full Stack Mobile de KeepCoding proporciona un dominio completo de los principales componentes y arquitecturas del stack mobile, formando a nivel avanzado en Swift nativo, Kotlin nativo, React Native y Flutter."
+    }
+  ],
+  "course": [
+    {
+      "title": "Introducción al Desarrollor Web I",
+      "date": "04/2021",
+      "description": "En este curso realizado en Google, aprendí las nociones básicas del desarrollo web, aprendiendo aptitudes como HTML básico y CSS básico",
+      "image": "google_introduccion_al_desarrollo_web_1.png"
+    },
+    {
+      "title": "Desarrollo de Apps Móviles",
+      "date": "06/2021",
+      "description": "En este curso realizado en Google, aprendí las nociones básicas del desarrollo de apps móviles, aprendiendo aptitudes como Sistema operativo Android y iOS, despligue de aplicaciones en Google Play y vias de marketing y monetización en móviles",
+      "image": "google_desarrollo_de_apps_moviles.png"
+    },
+    {
+      "title": "AWS Cloud Particioner Essentials",
+      "date": "12/2021",
+      "description": "En este curso realizado en Amazon Web Service, aprendí las nociones básicas de como configurar un servidor, los diferentes tipos de servicios que ofrece AWS y las formas de subir desplegar aplicaciones en AWS",
+      "image": "AWS_course_cloud_particioner.png"
+    },
+    {
+      "title": "Introducción al Desarrollor Web II",
+      "date": "07/2022",
+      "description": "En este curso realizado en Google, segui aprendiendo las nociones básicas del desarrollo web, aprendiendo aptitudes como HTML avanzado, CSS avanzado y Bootstrap",
+      "image": "google_introduccion_al_desarrollo_web_2.png"
+    },
+    {
+      "title": "Google Cloud Computing",
+      "date": "09/2022",
+      "description": "En este curso realizado en Google, aprendí las nociones básicas de como configurar un servidor, los diferentes tipos de servicios que ofrece Google y las formas de subir desplegar aplicaciones en Google Cloud",
+      "image": "google_cloud_computing.png"
+    },
+    {
+      "title": "Kotlin desde cero",
+      "date": "03/2023",
+      "description": "En este curso realizado en KeepCoding, aprendí tanto las nociones básica, como tecnicas avanzadas de la programación en Kotlin",
+      "image": "curso_de_kotlin_desde_cero.png"
+    },
+    {
+      "title": "Docker para desarrolladores",
+      "date": "03/2023",
+      "description": "En este curso realizado en OpenWebinars, aprendí los principios de Docker asi como crear Dockerfiles o docker-compose",
+      "image": "curso_de_docker.png"
+    },
+    {
+      "title": "Diseño UI/UX",
+      "date": "09/2023",
+      "description": "Gracias al seguimiento del Bootcamp de Desarrollo de Apps Móviles de KeepCoding he conseguido obtener el certificado de diseño UI/UX, donde he aprendido técnicas actuales de UI/UX, como ahora pueden ser estándares del diseño IOS y Android, futuras técnicas como el Neomorfismo",
+      "image": "UI_UX.png"
+    },
+    {
+      "title": "Swift desde cero",
+      "date": "09/2023",
+      "description": "Gracias al seguimiento del Bootcamp de Desarrollo de Apps Móviles de KeepCoding he conseguido obtener el certificado de programación en Swift, donde aprendí tanto las nociones básica, como tecnicas avanzadas de la programación en Swift",
+      "image": "swift.png"
+    },
+    {
+      "title": "Fundamentos de IOS",
+      "date": "09/2023",
+      "description": "Gracias al seguimiento del Bootcampo de Desarrollo de Apps Móviles en KeepCoding, he obtenido el certificado de Fundamentos IOS, donde he adquirido conociemiento basico de desarrollo en Storyboard y XIBs programando en Swift UIKit",
+      "image": "fundamentos_IOS.png"
+    }
+  ]
+}

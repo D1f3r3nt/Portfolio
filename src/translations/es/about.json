@@ -1,0 +1,10 @@
+{
+  "questions": [
+    {
+      "question": "¿Que tecnologias se ha usado?",
+      "response": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacinia sem enim, at facilisis quam tincidunt et. Sed pretium diam quis dui feugiat, vitae dictum nisi condimentum. Nulla imperdiet lectus in quam tempor vulputate. Sed in ante vel tortor lobortis placerat. Integer fermentum ante magna. Fusce scelerisque luctus cursus. Sed consequat leo vel felis volutpat, at ornare sem lobortis. Duis sed imperdiet nisl. Fusce in sodales augue. Etiam pellentesque ante leo. Nulla posuere venenatis vulputate. Donec malesuada molestie vulputate. Morbi vitae turpis dapibus, imperdiet tellus vel, rhoncus dolor. "
+    }
+  ],
+  "figma": "https://www.figma.com/file/unFuvoE1cc4cBu4JScaeTA/Portfolio?type=design&node-id=0%3A1&mode=design&t=bfuUfCcgHfOAqL3g-1",
+  "github": "https://github.com/D1f3r3nt/Portfolio"
+}

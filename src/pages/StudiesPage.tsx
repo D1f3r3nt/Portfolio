@@ -20,17 +20,18 @@ interface CoursesInterface {
 
 export const StudiesPage = () => {
 
-    const [t] = useTranslation("global")
+    const [global] = useTranslation("global")
+    const [studies] = useTranslation("studies")
 
-    const degrees = t('studies.degree', {returnObjects: true}) as unknown as DegreeInterface[]
-    const courses = t('studies.course', {returnObjects: true}) as unknown as CoursesInterface[]
+    const degrees = studies('degree', {returnObjects: true}) as unknown as DegreeInterface[]
+    const courses = studies('course', {returnObjects: true}) as unknown as CoursesInterface[]
 
     return (
         <Page>
 
             <DownButton />
 
-            <Text value={t('header.studies')} size={'xl'} gradient className='sm:block hidden'/>
+            <Text value={global('header.studies')} size={'xl'} gradient className='sm:block hidden'/>
 
             <div className='w-[100%] flex flex-col items-center gap-y-5 mt-5'>
                 {
@@ -47,7 +48,7 @@ export const StudiesPage = () => {
                 }
             </div>
 
-            <Text id="courses" value={t('header.course')} size={'xl'} gradient className={'mt-10'}/>
+            <Text id="courses" value={global('header.course')} size={'xl'} gradient className={'mt-10'}/>
 
             <div className='w-[100%] flex flex-col items-center gap-y-16 mt-10'>
                 {

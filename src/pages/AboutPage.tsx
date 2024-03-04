@@ -9,13 +9,13 @@ interface AboutInterface {
 }
 
 export const AboutPage = () => {
-    const [t] = useTranslation("global")
+    const [about] = useTranslation("about")
 
-    const questions = t('about.questions', {returnObjects: true}) as unknown as AboutInterface[]
+    const questions = about('questions', {returnObjects: true}) as unknown as AboutInterface[]
 
     return (
         <Page>
-            <AboutLinks figmaUrl={t("about.figma")} githubUrl={t("about.github")} />
+            <AboutLinks figmaUrl={about("figma")} githubUrl={about("github")} />
 
             <div className='w-[100%] flex flex-col items-center gap-y-4 mt-10'>
                 {

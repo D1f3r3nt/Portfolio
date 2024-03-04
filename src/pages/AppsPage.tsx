@@ -28,10 +28,11 @@ export interface AppsInterface {
 
 export const AppsPage = () => {
 
-    const [t] = useTranslation("global")
+    const [global] = useTranslation("global")
+    const [appsT] = useTranslation("apps")
     const { filterApps } = useFilter()
 
-    const apps = t('apps.data', {returnObjects: true}) as unknown as AppsInterface[]
+    const apps = appsT('data', {returnObjects: true}) as unknown as AppsInterface[]
     const [data, setData] = useState<AppsInterface[]>([])
 
     const [isAndroid, setIsAndroid] = useState(true)
@@ -52,7 +53,7 @@ export const AppsPage = () => {
                     <input
                         type="text"
                         className="w-[100%] h-[100%] bg-transparent text-[#ECECEC] placeholder:text-[#2E2E2E] outline-none"
-                        placeholder={`${t("common.search")}...`}
+                        placeholder={`${global("common.search")}...`}
                         value={filterText}
                         onChange={e => setFilterText(e.target.value)}
                     />

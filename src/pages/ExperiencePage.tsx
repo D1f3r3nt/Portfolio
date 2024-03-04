@@ -10,13 +10,14 @@ interface ExperienceInterface {
 }
 
 export const ExperiencePage = () => {
-    const [t] = useTranslation("global")
+    const [global] = useTranslation("global")
+    const [experience] = useTranslation("experience")
 
-    const experiences = t('experience.data', { returnObjects: true }) as unknown as ExperienceInterface[]
+    const experiences = experience('data', { returnObjects: true }) as unknown as ExperienceInterface[]
 
     return (
         <Page>
-            <Text value={t('header.experience')} size={'xl'} gradient className='sm:block hidden'/>
+            <Text value={global('header.experience')} size={'xl'} gradient className='sm:block hidden'/>
 
             <div className='w-[100%] flex flex-col items-center gap-y-5'>
                 {
