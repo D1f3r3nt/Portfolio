@@ -1,12 +1,12 @@
 {
   "degree": [
     {
-      "title": "High School Diploma with a Science Emphasis",
+      "title": "High School Diploma with Physical Sciences",
       "date": "09/2019 - 06/2021",
       "description": "I studied at IES S'Arenal where I took the scientific baccalaureate. During my time there, I developed solid skills in JavaScript, Java, MySQL, CSS and HTML. I acquired these competencies through internships, exams and assignments that challenged my understanding and skills in programming and web design. These experiences enriched my education and prepared me to face the challenges of the technological world with confidence and skill."
     },
     {
-      "title": "Associate Degree of Development of Multiplatform Applications",
+      "title": "Associate Degree of Multiplatform Applications Development",
       "date": "09/2021 - 06/2023",
       "description": "I studied at CIFP Pau Casesnoves the Higher Degree in Multiplatform Application Development, where I acquired skills in Flutter, Linux, Git and GitHub, Dart, MongoDB and Java. I developed these skills through internships, exams and projects, where I obtained a final average of 9.7. Thanks to this training, I feel able to face challenges in the world of software development with solidity and confidence."
     },
@@ -48,7 +48,7 @@
       "image": "google_cloud_computing.png"
     },
     {
-      "title": "Kotlin for rokies",
+      "title": "Kotlin",
       "date": "03/2023",
       "description": "In this course held at KeepCoding, I learned both the basics and advanced techniques of Kotlin programming.",
       "image": "curso_de_kotlin_desde_cero.png"
@@ -66,7 +66,7 @@
       "image": "UI_UX.png"
     },
     {
-      "title": "Swift for rokies",
+      "title": "Swift",
       "date": "09/2023",
       "description": "Thanks to the follow-up of KeepCoding's Mobile App Development Bootcamp, I managed to obtain the Swift programming certificate, where I learned both the basic notions and advanced techniques of Swift programming.",
       "image": "swift.png"
