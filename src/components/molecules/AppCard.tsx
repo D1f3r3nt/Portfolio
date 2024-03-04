@@ -19,9 +19,9 @@ export const AppCard = ({app, imageFirst = false}: AppCardProps) => {
         <div className='w-[100%] max-h-[500px] flex flex-row'>
             {
                 imageFirst &&
-                <img src={`./src/assets/mockups/${app.image}`} alt="Mockup" className='h-[100%]'/>
+                <img src={`./src/assets/mockups/${app.image}`} alt="Mockup" className='sm:block hidden h-[100%]'/>
             }
-            <div className='flex flex-col bg-[#2E2E2E] w-[100%] rounded-[8px] p-8'>
+            <div className='flex flex-col bg-[#2E2E2E] w-[100%] rounded-[8px] sm:p-8 p-4'>
                 <div className='flex flex-row w-[100%] justify-between mb-5'>
                     <Text value={app.name} size="l" gradient/>
                     <div className='flex flex-row gap-x-4'>
@@ -54,11 +54,11 @@ export const AppCard = ({app, imageFirst = false}: AppCardProps) => {
                         }
                     </div>
                 </div>
-                <Text value={app.description} size='m' />
+                <Text value={app.description} size='m' className='overflow-hidden' />
             </div>
             {
                 !imageFirst &&
-                <img src={`./src/assets/mockups/${app.image}`} alt="Mockup" className='h-[100%]'/>
+                <img src={`./src/assets/mockups/${app.image}`} alt="Mockup" className='sm:block hidden h-[100%]'/>
             }
         </div>
     )

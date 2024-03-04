@@ -13,7 +13,7 @@ export const DownButton = () => {
     };
 
     return (
-        <Button onClick={scrollToCertificates} className="h-[60px] gold-gradient-button flex justify-center items-center absolute top-5 right-5">
+        <Button onClick={scrollToCertificates} className="sm:h-[60px] h-[50px] gold-gradient-button flex justify-center items-center absolute top-5 right-5">
             <Text value={t('header.course')} size="m" gradient className="p-4"/>
         </Button>
     )

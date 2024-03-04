@@ -46,8 +46,8 @@ export const AppsPage = () => {
 
     return (
         <Page>
-            <div className='w-[100%] grid grid-cols-2'>
-                <div className='flex flex-row items-center gap-x-2 w-[70%] h-[60px] bg-[#676767] rounded-[30px] px-5 py-2'>
+            <div className='w-[100%] sm:grid sm:grid-cols-2'>
+                <div className='flex flex-row items-center gap-x-2 sm:w-[70%] w-[100%] h-[60px] bg-[#676767] rounded-[30px] px-5 py-2'>
                     <img src={search} alt="Search Icon"/>
                     <input
                         type="text"
@@ -57,14 +57,14 @@ export const AppsPage = () => {
                         onChange={e => setFilterText(e.target.value)}
                     />
                 </div>
-                <div className='flex flex-row justify-end gap-x-10 mr-5'>
+                <div className='sm:flex hidden flex-row justify-end gap-x-10 mr-5'>
                     <GoldSwitch iconEnabled={androidEnabled} iconDisabled={androidDisabled} isEnabled={isAndroid} setIsEnabled={setIsAndroid}/>
                     <GoldSwitch iconEnabled={appleEnabled} iconDisabled={appleDisabled} isEnabled={isApple} setIsEnabled={setIsApple}/>
                     <GoldSwitch iconEnabled={serverEnabled} iconDisabled={serverDisabled} isEnabled={isServer} setIsEnabled={setIsServer}/>
                     <GoldSwitch iconEnabled={websiteEnabled} iconDisabled={websiteDisabled} isEnabled={isWebsite} setIsEnabled={setIsWebsite}/>
                 </div>
             </div>
-            <div className='w-[100%] flex flex-col items-center px-10 pt-10 gap-y-10'>
+            <div className='w-[100%] flex flex-col items-center sm:px-10 pt-10 gap-y-10'>
                 {
                     data.map((app, index) => (
                         <AppCard key={`app${index}`} app={app} imageFirst={index % 2 !== 0}/>

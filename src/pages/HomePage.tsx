@@ -39,17 +39,17 @@ export const HomePage = () => {
 
     return (
         <Page>
-            <div className='grid grid-cols-3'>
+            <div className='sm:grid sm:grid-cols-3 flex flex-col-reverse'>
                 <div className='col-span-2'>
                     <Text value={t('header.home')} size='xl' gradient/>
                     <Text value={t('home.name')} size="l" className='mt-3'/>
                     <Text value={t('home.description')} size="m" className='mt-1 text-justify'/>
                 </div>
 
-                <div className="flex flex-col items-center">
-                    <img src={profile} alt="Imagen" className="w-[350px] h-[350px] gold-gradient-image"/>
+                <div className="flex flex-col items-center mb-5">
+                    <img src={profile} alt="Imagen" className="sm:w-[350px] sm:h-[350px] w-[250px] h-[250px] gold-gradient-image"/>
 
-                    <div className="flex flex-row mt-8 w-[400px] justify-around">
+                    <div className="flex flex-row mt-8 max-w-[400px] w-[100%] justify-around">
                         <GoldButton onClick={() => navigateOutside(t('home.stackOverflowURL'))}>
                             <img src={stackOverflow} alt="Stack Overflow"/>
                         </GoldButton>
@@ -66,7 +66,7 @@ export const HomePage = () => {
                         </GoldButton>
                     </div>
 
-                    <div className="flex flex-col mt-10 w-[400px] gap-y-4">
+                    <div className="flex flex-col mt-10 max-w-[400px] w-[100%] gap-y-4">
                         <div className="flex flex-row gap-x-2">
                             <img src={calendar} alt="Stack Overflow"/>
                             <Text value={`${getCurrentYears()} años`} size="m"/>

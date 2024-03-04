@@ -22,7 +22,7 @@ export const Text = ({value, size, underline = false, gradient = false, classNam
             fontSize = 'sm:text-[20px] text-[17px]'
             break
         case "s":
-            fontSize = 'sm:text-[12px] text-[9px]'
+            fontSize = 'text-[12px]'
             break
         default:
             fontSize = ''
