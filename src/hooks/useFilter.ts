@@ -38,7 +38,7 @@ export const useFilter = () => {
 
         return Array.from(current).filter(app => {
             if (filterText && filterText?.length > 0) {
-                return app.name.includes(filterText)
+                return app.name.toLowerCase().includes(filterText.toLowerCase())
             }
 
             return true
