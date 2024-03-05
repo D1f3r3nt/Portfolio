@@ -21,61 +21,61 @@
       "title": "Introducción al Desarrollor Web I",
       "date": "04/2021",
       "description": "En este curso realizado en Google, aprendí las nociones básicas del desarrollo web, aprendiendo aptitudes como HTML básico y CSS básico",
-      "image": "google_introduccion_al_desarrollo_web_1.png"
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fgoogle_introduccion_al_desarrollo_web_1.png?alt=media&token=5a86748c-ed0e-40d6-84f9-929999c634cb"
     },
     {
       "title": "Desarrollo de Apps Móviles",
       "date": "06/2021",
       "description": "En este curso realizado en Google, aprendí las nociones básicas del desarrollo de apps móviles, aprendiendo aptitudes como Sistema operativo Android y iOS, despligue de aplicaciones en Google Play y vias de marketing y monetización en móviles",
-      "image": "google_desarrollo_de_apps_moviles.png"
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fgoogle_desarrollo_de_apps_moviles.png?alt=media&token=3800911d-0c42-42ac-b33c-5bbad5f9e7fc"
     },
     {
       "title": "AWS Cloud Particioner Essentials",
       "date": "12/2021",
       "description": "En este curso realizado en Amazon Web Service, aprendí las nociones básicas de como configurar un servidor, los diferentes tipos de servicios que ofrece AWS y las formas de subir desplegar aplicaciones en AWS",
-      "image": "AWS_course_cloud_particioner.png"
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2FAWS_course_cloud_particioner.png?alt=media&token=a73797d9-283c-488d-af14-951b63c60273"
     },
     {
       "title": "Introducción al Desarrollor Web II",
       "date": "07/2022",
       "description": "En este curso realizado en Google, segui aprendiendo las nociones básicas del desarrollo web, aprendiendo aptitudes como HTML avanzado, CSS avanzado y Bootstrap",
-      "image": "google_introduccion_al_desarrollo_web_2.png"
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fgoogle_introduccion_al_desarrollo_web_2.png?alt=media&token=5e33727e-bb8a-4eb3-bb3c-0d16aca90ae4"
     },
     {
       "title": "Google Cloud Computing",
       "date": "09/2022",
       "description": "En este curso realizado en Google, aprendí las nociones básicas de como configurar un servidor, los diferentes tipos de servicios que ofrece Google y las formas de subir desplegar aplicaciones en Google Cloud",
-      "image": "google_cloud_computing.png"
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fgoogle_cloud_computing.png?alt=media&token=4bc6adcb-6348-4af1-b405-741660e3578f"
     },
     {
-      "title": "Kotlin desde cero",
+      "title": "Kotlin",
       "date": "03/2023",
       "description": "En este curso realizado en KeepCoding, aprendí tanto las nociones básica, como tecnicas avanzadas de la programación en Kotlin",
-      "image": "curso_de_kotlin_desde_cero.png"
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fcurso_de_kotlin_desde_cero.png?alt=media&token=ae60efbf-1584-4966-b9ed-d9e9cda4e80f"
     },
     {
       "title": "Docker para desarrolladores",
       "date": "03/2023",
       "description": "En este curso realizado en OpenWebinars, aprendí los principios de Docker asi como crear Dockerfiles o docker-compose",
-      "image": "curso_de_docker.png"
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fcurso_de_docker.png?alt=media&token=ee51c251-2c1f-4035-a4f4-8463351f933b"
     },
     {
       "title": "Diseño UI/UX",
       "date": "09/2023",
       "description": "Gracias al seguimiento del Bootcamp de Desarrollo de Apps Móviles de KeepCoding he conseguido obtener el certificado de diseño UI/UX, donde he aprendido técnicas actuales de UI/UX, como ahora pueden ser estándares del diseño IOS y Android, futuras técnicas como el Neomorfismo",
-      "image": "UI_UX.png"
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2FUI_UX.png?alt=media&token=aa1bceea-b30d-4fc6-88c1-fc91701bd2a9"
     },
     {
-      "title": "Swift desde cero",
+      "title": "Swift",
       "date": "09/2023",
       "description": "Gracias al seguimiento del Bootcamp de Desarrollo de Apps Móviles de KeepCoding he conseguido obtener el certificado de programación en Swift, donde aprendí tanto las nociones básica, como tecnicas avanzadas de la programación en Swift",
-      "image": "swift.png"
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fswift.png?alt=media&token=be446f21-f2e1-4f42-a841-7fe60d7775ad"
     },
     {
       "title": "Fundamentos de IOS",
       "date": "09/2023",
       "description": "Gracias al seguimiento del Bootcampo de Desarrollo de Apps Móviles en KeepCoding, he obtenido el certificado de Fundamentos IOS, donde he adquirido conociemiento basico de desarrollo en Storyboard y XIBs programando en Swift UIKit",
-      "image": "fundamentos_IOS.png"
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Ffundamentos_IOS.png?alt=media&token=b4424a4a-9a66-4b78-b48f-35228ccbbeb7"
     }
   ]
 }

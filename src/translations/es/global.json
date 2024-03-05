@@ -8,6 +8,7 @@
     "course": "Certificados"
   },
   "common": {
-    "search": "Buscar"
+    "search": "Buscar",
+    "profile": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/profilePhoto.jpg?alt=media&token=f0ea6739-1898-4fd9-bf13-b8290a9dc04a"
   }
 }

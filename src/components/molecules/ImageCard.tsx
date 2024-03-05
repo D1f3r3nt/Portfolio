@@ -13,12 +13,12 @@ export const ImageCard = ({title, description, image, date, imageFirst = true}: 
       <div className='sm:grid sm:grid-cols-3'>
           {
               imageFirst &&
-              <img src={`./src/assets/diplomas/${image}`} alt="Diploma" className='sm:block hidden gold-gradient-image h-[200px]'/>
+              <img src={image} alt="Diploma" className='sm:block hidden gold-gradient-image h-[200px]'/>
           }
           <CenterCard title={title} date={date} description={description} className='col-span-2'/>
           {
               !imageFirst &&
-              <img src={`./src/assets/diplomas/${image}`} alt="Diploma" className='sm:block hidden gold-gradient-image h-[200px]'/>
+              <img src={image} alt="Diploma" className='sm:block hidden gold-gradient-image h-[200px]'/>
           }
       </div>
   )

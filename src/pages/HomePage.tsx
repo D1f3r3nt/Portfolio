@@ -12,7 +12,6 @@ import flag from "../assets/icons/flag.svg"
 import google from "../assets/icons/google.svg"
 import phone from "../assets/icons/phone-alt.svg"
 
-import profile from "../assets/profilePhoto.jpg";
 import {useTranslation} from "react-i18next";
 import {navigateOutside} from "../helpers/helper.ts";
 
@@ -48,7 +47,7 @@ export const HomePage = () => {
                 </div>
 
                 <div className="flex flex-col items-center mb-5">
-                    <img src={profile} alt="Imagen" className="sm:w-[350px] sm:h-[350px] w-[250px] h-[250px] gold-gradient-image"/>
+                    <img src={global("common.profile")} alt="Imagen" className="sm:w-[350px] sm:h-[350px] w-[250px] h-[250px] gold-gradient-image"/>
 
                     <div className="flex flex-row mt-8 max-w-[400px] w-[100%] justify-around">
                         <GoldButton onClick={() => navigateOutside(home('stackOverflowURL'))}>
