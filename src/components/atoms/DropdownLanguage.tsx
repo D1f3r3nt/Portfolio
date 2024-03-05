@@ -21,21 +21,12 @@ export const DropdownLanguage = () => {
     return (
         <div className="flex flex-row gap-x-2 justify-center">
             <img src={flag} alt="Arrow Down"/>
-            <select className="dropdown-style cursor-pointer">
-                <option
-                    value="es"
-                    onClick={() => handleChange('es')}
-                    selected={config.language === 'es'}
-                >
-                    Español
-                </option>
-                <option
-                    value="en"
-                    onClick={() => handleChange('en')}
-                    selected={config.language === 'en'}
-                >
-                    English
-                </option>
+            <select
+                className="dropdown-style cursor-pointer"
+                defaultValue={config.language}
+                onChange={(event) => handleChange(event.target.value)}>
+                <option value="es" > Español </option>
+                <option value="en" > English </option>
             </select>
         </div>
 
