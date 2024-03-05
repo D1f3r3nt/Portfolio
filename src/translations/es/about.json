@@ -14,7 +14,7 @@
     },
     {
       "question": "¿Como se almacenan las imagenes?",
-      "response": "Actualmente las imagenes estan dentro del propio proyecto, pero para reducir el peso de este y agilizar las pantallas se optará por subirlos a un CDN de Google Firebase Storage."
+      "response": "Actualmente las imagenes para reducir el peso y agilizar las pantallas estan subidas a un CDN de Google Firebase Storage."
     },
     {
       "question": "¿De donde has sacado el diseño? ¿Quien lo ha hecho?",
@@ -26,7 +26,7 @@
     },
     {
       "question": "¿Tienes algun control sobre el tráfico de la página web?",
-      "response": "Actualmente no estoy teniendo ningun control sobre el tráfico que esta teniendo mi página web, pero en la próxima actualización se relacionara con Firebase donde se empezará a usar Google Analytics para controlar el tráfico y las principales acciones."
+      "response": "Actualmente se relaciona con Firebase donde se usa Google Analytics para controlar el tráfico y las principales acciones."
     }
   ],
   "figma": "https://www.figma.com/file/unFuvoE1cc4cBu4JScaeTA/Portfolio?type=design&node-id=0%3A1&mode=design&t=bfuUfCcgHfOAqL3g-1",
