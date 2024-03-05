@@ -19,12 +19,12 @@ export const Navbar = () => {
         <>
             <Button
                 onClick={() => setIsOpen(!isOpen)}
-                className="
-                fixed left-2 top-2 !z-50 sm:hidden
-                p-2 text-sm text-yellow-400
-                rounded-lg focus:outline-none
-                ring-2 ring-yellow-400 bg-[#2E2E2E]
-                ">
+                className={`
+                    fixed ${isOpen ? 'left-2 top-2' : 'left-5 top-5'} !z-50 sm:hidden
+                    p-2 text-sm text-yellow-400
+                    rounded-lg focus:outline-none
+                    ring-2 ring-yellow-400 bg-[#2E2E2E]
+                    `}>
                 {
                     isOpen ? <CloseIcon/> : <MenuIcon/>
                 }
