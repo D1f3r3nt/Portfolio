@@ -2,7 +2,31 @@
   "questions": [
     {
       "question": "¿Que tecnologias se ha usado?",
-      "response": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacinia sem enim, at facilisis quam tincidunt et. Sed pretium diam quis dui feugiat, vitae dictum nisi condimentum. Nulla imperdiet lectus in quam tempor vulputate. Sed in ante vel tortor lobortis placerat. Integer fermentum ante magna. Fusce scelerisque luctus cursus. Sed consequat leo vel felis volutpat, at ornare sem lobortis. Duis sed imperdiet nisl. Fusce in sodales augue. Etiam pellentesque ante leo. Nulla posuere venenatis vulputate. Donec malesuada molestie vulputate. Morbi vitae turpis dapibus, imperdiet tellus vel, rhoncus dolor. "
+      "response": "Para esta página web que funciona como un portfolio, se ha obtado por usar React TypeScript + Vite, personalmente me gusta usar mas Vite que no Create React App por su estructura simplificada, tambien se ha optado para usar TypeScript ya que personalmente me gusta mas que JavaScript por su estructura y por la obligación de tenerlo todo tipado."
+    },
+    {
+      "question": "¿Como se ha conseguido el multilenguaje?",
+      "response": "Para poder crear una funcionalidad de traducción se ha obtado por usar la tecnología de i18next para react, la cual facilita mucho el tener los textos ordenados y con total libertad. Para esta página web se han usado diversos archivos de texto en formato JSON, explicado mejor en la siguiente pregunta."
+    },
+    {
+      "question": "¿Como se obtiene la información?",
+      "response": "Para no tener que ir modificando los componentes para ir actualizando la información se ha obtado por extraer la información en diversos archivos JSON, para asi tener un acceso directo a la información y la información que se muestra en los componentes es simplemente datos dinamicos, tambien se han duplicado todos los archivos para tener dos versiones, tanto en Ingles como en Español."
+    },
+    {
+      "question": "¿Como se almacenan las imagenes?",
+      "response": "Actualmente las imagenes estan dentro del propio proyecto, pero para reducir el peso de este y agilizar las pantallas se optará por subirlos a un CDN de Google Firebase Storage."
+    },
+    {
+      "question": "¿De donde has sacado el diseño? ¿Quien lo ha hecho?",
+      "response": "El diseño es 100% mio, como se puede ver en el enlace a Figma en la parte superior derecha, este diseño lo he creado gracias a los conocimientos que tengo sobre el manejo de la herramienta de Figma asi como de las nociones que aprendi en el curso de Diseño UI/UX que realice."
+    },
+    {
+      "question": "¿Como despligas la página web?",
+      "response": "Actualmente estoy usando Netlify y la manera de desplegar es mediante el repositorio, en realidad estoy desplegando la rama master y cada vez que hago un push a esa rama se actualiza en Netlify."
+    },
+    {
+      "question": "¿Tienes algun control sobre el tráfico de la página web?",
+      "response": "Actualmente no estoy teniendo ningun control sobre el tráfico que esta teniendo mi página web, pero en la próxima actualización se relacionara con Firebase donde se empezará a usar Google Analytics para controlar el tráfico y las principales acciones."
     }
   ],
   "figma": "https://www.figma.com/file/unFuvoE1cc4cBu4JScaeTA/Portfolio?type=design&node-id=0%3A1&mode=design&t=bfuUfCcgHfOAqL3g-1",

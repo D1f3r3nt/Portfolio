@@ -1,8 +1,32 @@
 {
   "questions": [
     {
-      "question": "What technologies have been used?",
-      "response": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacinia sem enim, at facilisis quam tincidunt et. Sed pretium diam quis dui feugiat, vitae dictum nisi condimentum. Nulla imperdiet lectus in quam tempor vulputate. Sed in ante vel tortor lobortis placerat. Integer fermentum ante magna. Fusce scelerisque luctus cursus. Sed consequat leo vel felis volutpat, at ornare sem lobortis. Duis sed imperdiet nisl. Fusce in sodales augue. Etiam pellentesque ante leo. Nulla posuere venenatis vulputate. Donec malesuada molestie vulputate. Morbi vitae turpis dapibus, imperdiet tellus vel, rhoncus dolor. "
+      "question": "Which technologies have been used?",
+      "response": "For this website that works as a portfolio, we have chosen to use React TypeScript + Vite, personally I like to use more Vite than Create React App for its simplified structure, we have also chosen to use TypeScript because I personally like it more than JavaScript for its structure and the obligation to have it all typed."
+    },
+    {
+      "question": "How is multilanguage achieved?",
+      "response": "In order to create a translation functionality we have chosen to use the i18next technology for react, which makes it much easier to have the texts ordered and with total freedom. For this web page we have used several text files in JSON format, better explained in the next question."
+    },
+    {
+      "question": "How is information obtained?",
+      "response": "To avoid having to modify the components to update the information, we have extracted the information in several JSON files, so we have a direct access to the information and the information shown in the components is simply dynamic data, we have also duplicated all the files to have two versions, both in English and Spanish."
+    },
+    {
+      "question": "How are images stored?",
+      "response": "Currently the images are within the project itself, but to reduce the weight of this and streamline the screens will choose to upload them to a Google Firebase Storage CDN."
+    },
+    {
+      "question": "Where did you get the design? Who made it?",
+      "response": "The design is 100% mine, as you can see in the link to Figma on the top right, this design I have created thanks to the knowledge I have about the handling of the Figma tool as well as the notions I learned in the UI/UX Design course I took."
+    },
+    {
+      "question": "How do you deploy the site?",
+      "response": "I am currently using Netlify and the way to deploy is through the repository, I am actually deploying the master branch and every time I do a push to that branch it is updated in Netlify."
+    },
+    {
+      "question": "Do you have any control over website traffic?",
+      "response": "Currently I am not having any control over the traffic that my website is having, but in the next update it will be related to Firebase where it will start using Google Analytics to control the traffic and the main actions."
     }
   ],
   "figma": "https://www.figma.com/file/unFuvoE1cc4cBu4JScaeTA/Portfolio?type=design&node-id=0%3A1&mode=design&t=bfuUfCcgHfOAqL3g-1",
