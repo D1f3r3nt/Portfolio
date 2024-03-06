@@ -4,6 +4,7 @@ import App from './App.tsx'
 import './index.css'
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
+import ReactGA from "react-ga4";
 
 import global_es from "./translations/es/global.json";
 import home_es from "./translations/es/home.json";
@@ -40,6 +41,13 @@ i18next.init({
             about: about_en
         }
     }
+})
+
+ReactGA.initialize("G-V28Y1WJWBN")
+
+ReactGA.send({
+    hitType: "page-view",
+    page: window.location.pathname,
 })
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
