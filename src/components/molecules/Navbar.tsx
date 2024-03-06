@@ -33,7 +33,7 @@ export const Navbar = () => {
             <div
                 className={`
                     ${isOpen ? '' : 'lg:translate-x-0 -translate-x-full'}
-                    fixed top-0 left-0 z-40 w-64 h-screen transition-transform bg-[#2E2E2E]
+                    fixed top-0 left-0 z-40 w-64 h-dvh transition-transform bg-[#2E2E2E]
                     flex flex-col justify-between items-center
                     `}>
 
