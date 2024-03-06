@@ -13,13 +13,13 @@ export const Text = ({value, size, underline = false, gradient = false, classNam
 
     switch (size) {
         case "xl":
-            fontSize = 'sm:text-[36px] text-[29px] font-bold'
+            fontSize = 'xl:text-[36px] text-[29px] font-bold'
             break
         case 'l':
-            fontSize = 'sm:text-[32px] text-[25px] font-medium'
+            fontSize = 'xl:text-[32px] text-[25px] font-medium'
             break
         case "m":
-            fontSize = 'sm:text-[20px] text-[17px]'
+            fontSize = 'xl:text-[20px] text-[17px]'
             break
         case "s":
             fontSize = 'text-[12px]'

@@ -20,7 +20,7 @@ export const Navbar = () => {
             <Button
                 onClick={() => setIsOpen(!isOpen)}
                 className={`
-                    fixed ${isOpen ? 'left-2 top-2' : 'left-5 top-5'} !z-50 sm:hidden
+                    fixed ${isOpen ? 'left-2 top-2' : 'left-5 top-5'} !z-50 lg:hidden
                     p-2 text-sm text-yellow-400
                     rounded-lg focus:outline-none
                     ring-2 ring-yellow-400 bg-[#2E2E2E]
@@ -32,7 +32,7 @@ export const Navbar = () => {
 
             <div
                 className={`
-                    ${isOpen ? '' : 'sm:translate-x-0 -translate-x-full'}
+                    ${isOpen ? '' : 'lg:translate-x-0 -translate-x-full'}
                     fixed top-0 left-0 z-40 w-64 h-screen transition-transform bg-[#2E2E2E]
                     flex flex-col justify-between items-center
                     `}>

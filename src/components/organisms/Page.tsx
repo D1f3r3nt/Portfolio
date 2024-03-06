@@ -8,7 +8,7 @@ export const Page = ({children}: PageProps) => {
   return (
       <>
           <Navbar />
-          <div className="p-6 mt-14 sm:mt-0 sm:ml-64">
+          <div className="p-6 mt-14 lg:mt-0 lg:ml-64">
               {children}
           </div>
       </>

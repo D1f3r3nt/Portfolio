@@ -16,12 +16,12 @@ interface AppCardProps {
 export const AppCard = ({app, imageFirst = false}: AppCardProps) => {
 
     return (
-        <div className='w-[100%] max-h-[500px] flex flex-row'>
+        <div className='w-[100%] max-h-[500px] flex flex-row items-center'>
             {
                 imageFirst &&
-                <img src={app.image} alt="Mockup" className='sm:block hidden h-[100%]'/>
+                <img src={app.image} alt="Mockup" className='sm:block hidden xl:h-[500px] h-[400px]'/>
             }
-            <div className='flex flex-col bg-[#2E2E2E] w-[100%] rounded-[8px] sm:p-8 p-4'>
+            <div className='flex flex-col bg-[#2E2E2E] w-[100%] h-[500px] rounded-[8px] sm:p-8 p-4'>
                 <div className='flex flex-row w-[100%] justify-between mb-5'>
                     <Text value={app.name} size="l" gradient/>
                     <div className='flex flex-row gap-x-4'>
@@ -58,7 +58,7 @@ export const AppCard = ({app, imageFirst = false}: AppCardProps) => {
             </div>
             {
                 !imageFirst &&
-                <img src={app.image} alt="Mockup" className='sm:block hidden h-[100%]'/>
+                <img src={app.image} alt="Mockup" className='sm:block hidden xl:h-[500px] h-[400px]'/>
             }
         </div>
     )

@@ -10,15 +10,19 @@ interface ImageCardProps {
 
 export const ImageCard = ({title, description, image, date, imageFirst = true}: ImageCardProps) => {
   return (
-      <div className='sm:grid sm:grid-cols-3'>
+      <div className='md:grid md:grid-cols-3'>
           {
               imageFirst &&
-              <img src={image} alt="Diploma" className='sm:block hidden gold-gradient-image h-[200px]'/>
+              <div className={'flex justify-center items-center'}>
+                <img src={image} alt="Diploma" className='md:flex hidden gold-gradient-image max-h-[200px] w-auto'/>
+              </div>
           }
-          <CenterCard title={title} date={date} description={description} className='col-span-2'/>
+          <CenterCard title={title} date={date} description={description} className='col-span-2 px-5'/>
           {
               !imageFirst &&
-              <img src={image} alt="Diploma" className='sm:block hidden gold-gradient-image h-[200px]'/>
+              <div className={'flex justify-center items-center'}>
+                  <img src={image} alt="Diploma" className='md:flex hidden gold-gradient-image max-h-[200px] w-auto'/>
+              </div>
           }
       </div>
   )

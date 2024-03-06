@@ -48,7 +48,7 @@ export const AppsPage = () => {
     return (
         <Page>
             <div className='w-[100%] sm:grid sm:grid-cols-2'>
-                <div className='flex flex-row items-center gap-x-2 sm:w-[70%] w-[100%] h-[60px] bg-[#676767] rounded-[30px] px-5 py-2'>
+                <div className='flex flex-row items-center gap-x-2 lg:w-[70%] sm:w-[90%] w-[100%] h-[60px] bg-[#676767] rounded-[30px] px-5 py-2'>
                     <img src={search} alt="Search Icon"/>
                     <input
                         type="text"
@@ -65,7 +65,7 @@ export const AppsPage = () => {
                     <GoldSwitch iconEnabled={websiteEnabled} iconDisabled={websiteDisabled} isEnabled={isWebsite} setIsEnabled={setIsWebsite}/>
                 </div>
             </div>
-            <div className='w-[100%] flex flex-col items-center sm:px-10 pt-10 gap-y-10'>
+            <div className='w-[100%] flex flex-col items-center lg:px-10 pt-10 gap-y-10'>
                 {
                     data.map((app, index) => (
                         <AppCard key={`app${index}`} app={app} imageFirst={index % 2 !== 0}/>

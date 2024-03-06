@@ -17,7 +17,7 @@ export const ExperiencePage = () => {
 
     return (
         <Page>
-            <Text value={global('header.experience')} size={'xl'} gradient className='sm:block hidden'/>
+            <Text value={global('header.experience')} size={'xl'} gradient className='lg:block hidden'/>
 
             <div className='w-[100%] flex flex-col items-center gap-y-5'>
                 {

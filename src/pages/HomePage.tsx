@@ -39,15 +39,15 @@ export const HomePage = () => {
 
     return (
         <Page>
-            <div className='sm:grid sm:grid-cols-3 flex flex-col-reverse'>
-                <div className='col-span-2'>
+            <div className='lg:grid lg:grid-cols-3 flex flex-col-reverse'>
+                <div className='col-span-2 sm:mr-5'>
                     <Text value={global('header.home')} size='xl' gradient/>
                     <Text value={home('name')} size="l" className='mt-3'/>
                     <Text value={home('description')} size="m" className='mt-1 text-justify'/>
                 </div>
 
                 <div className="flex flex-col items-center mb-5">
-                    <img src={global("common.profile")} alt="Imagen" className="sm:w-[350px] sm:h-[350px] w-[250px] h-[250px] gold-gradient-image"/>
+                    <img src={global("common.profile")} alt="Imagen" className="lg:w-[350px] lg:h-auto w-[250px] h-[250px] gold-gradient-image"/>
 
                     <div className="flex flex-row mt-8 max-w-[400px] w-[100%] justify-around">
                         <GoldButton onClick={() => navigateOutside(home('stackOverflowURL'))}>

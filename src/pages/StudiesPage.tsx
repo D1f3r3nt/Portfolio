@@ -31,7 +31,7 @@ export const StudiesPage = () => {
 
             <DownButton />
 
-            <Text value={global('header.studies')} size={'xl'} gradient className='sm:block hidden'/>
+            <Text value={global('header.studies')} size={'xl'} gradient className='lg:block hidden'/>
 
             <div className='w-[100%] flex flex-col items-center gap-y-5 mt-5'>
                 {
