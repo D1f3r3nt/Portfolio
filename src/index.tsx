@@ -43,7 +43,7 @@ i18next.init({
     }
 })
 
-ReactGA.initialize("G-V28Y1WJWBN")
+ReactGA.initialize("G-3XQHH4FE5L")
 
 ReactGA.send({
     hitType: "page-view",
