@@ -19,6 +19,11 @@ export const HomePage = () => {
 
     const [global] = useTranslation("global")
     const [home] = useTranslation("home")
+    const pdfLink = "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/Marc%20Santisteban%20CV.pdf?alt=media&token=e1a7895b-e78f-43fe-8cf8-8219d423dc24"
+
+    const downloadPdf = () => {
+        navigateOutside(pdfLink)
+    }
 
     const getCurrentYears = (): string => {
         const values = home('birthday').split('/')
@@ -59,9 +64,7 @@ export const HomePage = () => {
                         <GoldButton onClick={() => navigateOutside(home('githubURL'))}>
                             <img src={github} alt="Github"/>
                         </GoldButton>
-                        <GoldButton onClick={() => {
-                            // TODO: Descargar PDF
-                        }}>
+                        <GoldButton onClick={downloadPdf}>
                             <img src={download} alt="Download"/>
                         </GoldButton>
                     </div>

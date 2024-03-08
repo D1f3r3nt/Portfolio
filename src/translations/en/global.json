@@ -1,11 +1,11 @@
 {
   "header": {
     "home": "Who I am",
-    "apps": "Applications",
-    "studies": "Degree",
-    "experience": "Career",
+    "apps": "Apps",
+    "studies": "Education",
+    "experience": "Experience",
     "about": "About this page",
-    "course": "Certificates"
+    "course": "Certifications"
   },
   "common": {
     "search": "Search",
