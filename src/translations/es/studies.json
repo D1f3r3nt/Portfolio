@@ -76,6 +76,12 @@
       "date": "09/2023",
       "description": "Gracias al seguimiento del Bootcampo de Desarrollo de Apps Móviles en KeepCoding, he obtenido el certificado de Fundamentos IOS, donde he adquirido conociemiento basico de desarrollo en Storyboard y XIBs programando en Swift UIKit",
       "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Ffundamentos_IOS.png?alt=media&token=b4424a4a-9a66-4b78-b48f-35228ccbbeb7"
+    },
+    {
+      "title": "Patrones de diseño",
+      "date": "10/2023",
+      "description": "Gracias al seguimiento del Mobile App Development Bootcamp en KeepCoding, he obtenido el Design Patterns Certificate, donde he adquirido el conocimiento de las diferentes arquitecturas del mundo móvil así como sus características. Empezando por la arquitectura MVC (Model-View-Controller) y siguiendo por la arquitectura MVVM (Model-View-ViewModel), más utilizada en la actualidad.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fpatrones_de_dise%C3%B1o.png?alt=media&token=19ffd24f-0245-496c-b5f5-f2a95338631e"
     }
   ]
 }
