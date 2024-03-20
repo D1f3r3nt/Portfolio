@@ -82,6 +82,12 @@
       "date": "10/2023",
       "description": "Gracias al seguimiento del Mobile App Development Bootcamp en KeepCoding, he obtenido el Design Patterns Certificate, donde he adquirido el conocimiento de las diferentes arquitecturas del mundo móvil así como sus características. Empezando por la arquitectura MVC (Model-View-Controller) y siguiendo por la arquitectura MVVM (Model-View-ViewModel), más utilizada en la actualidad.",
       "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fpatrones_de_dise%C3%B1o.png?alt=media&token=19ffd24f-0245-496c-b5f5-f2a95338631e"
+    },
+    {
+      "title": "React",
+      "date": "10/2023",
+      "description": "En Arteco Consulting SL nos pidieron desarrollar nuestros conocimientos de frontend programación, concretamente en React Javascript + Vite. En este curso he adquirido conocimientos sobre: React Hooks, Custom hooks, Firebase con React, Deployment en Heroku, Deployment en Netlify, vía repositorio, Redux, OAuth y Material UI.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Freact_de_cero_a_experto.png?alt=media&token=c04e8e52-05d8-4307-9292-f630e19188a3"
     }
   ]
 }
