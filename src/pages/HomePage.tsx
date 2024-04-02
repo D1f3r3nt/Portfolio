@@ -19,7 +19,7 @@ export const HomePage = () => {
 
     const [global] = useTranslation("global")
     const [home] = useTranslation("home")
-    const pdfLink = "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/Marc%20Santisteban%20CV.pdf?alt=media&token=a9fe36e7-6e57-4f84-945d-31d64cf83e84"
+    const pdfLink = "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/Marc%20Santisteban%20CV.pdf?alt=media&token=b1967d56-93b8-485a-8e63-a785959778ed"
 
     const downloadPdf = () => {
         navigateOutside(pdfLink)
