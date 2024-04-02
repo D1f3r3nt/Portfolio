@@ -86,8 +86,56 @@
     {
       "title": "React",
       "date": "10/2023",
-      "description": "At Arteco Consulting sl, we were asked to develop our knowledge of frontend programming, specifically in React Javascript + Vite. In this course I have gained knowledge about: React Hooks, Custom hooks, Firebase with React, Deployment in Heroku, Deployment in Netlify, via repository, Redux, OAuth and Material UI",
+      "description": "At Arteco Consulting sl, we were asked to develop our knowledge of frontend programming, specifically in React Javascript + Vite. In this course I have gained knowledge about: React Hooks, Custom hooks, Firebase with React, Deployment in Heroku, Deployment in Netlify, via repository, Redux, OAuth and Material UI.",
       "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Freact_de_cero_a_experto.png?alt=media&token=c04e8e52-05d8-4307-9292-f630e19188a3"
+    },
+    {
+      "title": "IOS Advanced",
+      "date": "11/2023",
+      "description": "Thanks to the follow-up of the Mobile App Development Bootcamp at KeepCoding, I have obtained the Advanced iOS Certificate, where I learned Apple Maps programming, along with Core Data and Keychain technologies. I also improved my knowledge in XIBs and testing.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fcertificado_iOS_avanzado.png?alt=media&token=0465f8e2-1501-4761-9989-d468b861a521"
+    },
+    {
+      "title": "Android Fundamentals",
+      "date": "12/2023",
+      "description": "Thanks to the follow-up of the Mobile App Development Bootcamp at KeepCoding, I have obtained the Android Fundamentals Certificate, where I learned to develop android applications with XML and Kotlin technology, I also acquired knowledge in testing.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fcertificado_fundamentos_android.png?alt=media&token=378d12ad-df8d-40b1-b659-69142170cae0"
+    },
+    {
+      "title": "Android Advanced",
+      "date": "01/2024",
+      "description": "Thanks to the follow-up of the Mobile App Development Bootcamp at KeepCoding, I have obtained the Android Advanced Certificate, where I learned to develop android applications with XML and Kotlin technology, I also learned to use Shared Preferences to store values locally, Room to create a local database, to implement Google Maps and to use Retrofit to make network calls.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fcertificado_android_avanzado.png?alt=media&token=3bad79b1-28cc-4762-b05a-d2a24191ebdd"
+    },
+    {
+      "title": "SwiftUI",
+      "date": "02/2024",
+      "description": "Thanks to the follow-up of the Mobile App Development Bootcamp at KeepCoding, I have obtained the SwiftUI Certificate, where I learned to develop iOS applications with SwiftUI technology, and also implemented reactive programming with Combine.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fcertificado_iOS_swiftUI.png?alt=media&token=aea947bc-8e89-47e9-b6ae-2e8c4fa15fd7"
+    },
+    {
+      "title": "Jetpack Compose",
+      "date": "02/2024",
+      "description": "Thanks to the follow-up of the Mobile App Development Bootcamp at KeepCoding, I have obtained the Jetpack Compose Certificate, where I learned to develop android applications with jetcpak compose technology, and also implemented reactive programming with Kotlin Flow and Room.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fcertificado_android_compose.png?alt=media&token=99579339-58fe-49b1-96e4-bba06a11fa2e"
+    },
+    {
+      "title": "Firebase",
+      "date": "02/2024",
+      "description": "Thanks to the follow-up of the Mobile App Development Bootcamp at KeepCoding, I have obtained the Firebase Certificate, where I learned how to use Firebase technology and all its functionalities related to Android and iOS development.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fcertificado_firebase.png?alt=media&token=21316a22-e864-4a67-b060-bc7fe1fa4ca2"
+    },
+    {
+      "title": "Swift Vapor",
+      "date": "03/2024",
+      "description": "Thanks to the follow-up of the Mobile App Development Bootcamp at KeepCoding, I have obtained the Swift Vapor Certificate, where I learned how to use the Swift Vapor technology, which allows us to create a backend that can be easily connected to various services such as Redis or Fluent (to connect to databases).",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fcertificado_vapor.png?alt=media&token=2cc93ee5-7b94-4bb8-89a7-0e3682f365b9"
+    },
+    {
+      "title": "Deployment iOS & Android",
+      "date": "03/2024",
+      "description": "Thanks to the follow-up of the Mobile App Development Bootcamp at KeepCoding, I have obtained the Deployment iOS & Android Certificate, where I learned how to deploy applications for both Android on Google Play and iOS on Apple Store.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/diplomas%2Fcertificado_despliegue_android_y_iOS.png?alt=media&token=2b17112d-ac9b-4355-9da3-15cc4b3f0b1e"
     }
   ]
 }
