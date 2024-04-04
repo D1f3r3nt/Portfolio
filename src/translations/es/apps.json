@@ -124,7 +124,7 @@
       "name": "Pista Libre Vapor",
       "description": "Este proyecto es un backend creado con la tecnología Swift Vapor, que nos permite crear un backend con el lenguaje de programación Swift.\n\nEste proyecto cuenta con diferentes endpoints para gestionar la aplicación de pista libre, una aplicación para reservar pistas de pádel, para guardar toda esta información el servidor cuenta con la implementación de la tecnología Fluent que permite conectar el backend con una base de datos, en este caso PostgreSQL.\n\nPara proteger el backend de posibles peticiones de personas no autorizadas, se ha implementado la autenticación JWT, que guarda el identificador del usuario que ha realizado la petición para no tener que pasar esta información.\n\nPor último, se ha creado un Dockerfile para poder desplegarlo en el servidor de Fly.io junto con su base de datos y así poder tener dos entornos de trabajo con dos bases de datos diferentes, una para local y otra para dev.",
       "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f9add.appspot.com/o/mockups%2Fvapor.png?alt=media&token=2fb26c54-c29b-4ad5-a1fa-cc02ae16573d",
-      "github": "https://github.com/D1f3r3nt/Pista-Libre-Vapor.git",
+      "github": "https://github.com/D1f3r3nt/Pista-Libre.git",
       "url": null,
       "type": "apple server",
       "googlePlay": null,
