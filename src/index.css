@@ -7,12 +7,28 @@
     src: url('./assets/fonts/RobotoRegular.ttf');
 }
 
+@font-face {
+    font-family: 'poppins';
+    src: url('./assets/fonts/PoppinsRegular.ttf');
+}
+
+@font-face {
+    font-family: 'onest';
+    src: url('./assets/fonts/OnestRegular.ttf');
+}
+
 * {
-    font-family: 'roboto', 'monospace';
+    font-family: 'onest', fantasy;
 }
 
 body {
-    background-color: #1B1B1B;
+    height: 100%;
+    color: white;
+    margin: 0;
+}
+
+#root {
+    height: 100%;
 }
 
 .gold-gradient {
