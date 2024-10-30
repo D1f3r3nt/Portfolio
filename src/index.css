@@ -19,6 +19,7 @@
 
 * {
     font-family: 'onest', fantasy;
+    color: white;
 }
 
 .background-gradient {
@@ -28,6 +29,10 @@
         rgba(120,119,198,0.3),
         rgba(255,255,255,0)
     );
+}
+
+.strong-style {
+    color: #FEF08A;
 }
 
 .gold-gradient {
