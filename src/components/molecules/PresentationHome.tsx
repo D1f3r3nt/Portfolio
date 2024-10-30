@@ -1,7 +1,10 @@
+import {WorkButton} from "../atoms/WorkButton.tsx";
+
 export const PresentationHome = () => {
 
   return (
       <div className='w-full flex flex-col gap-y-8'>
+          <WorkButton />
           <div className='w-full grid grid-cols-3'>
               <div className='w-full col-span-2'>
                   <div className='text-[36px] font-bold'>
