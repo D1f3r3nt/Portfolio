@@ -21,14 +21,13 @@
     font-family: 'onest', fantasy;
 }
 
-body {
-    height: 100%;
-    color: white;
-    margin: 0;
-}
-
-#root {
-    height: 100%;
+.background-gradient {
+    background-color: rgb(3 7 18);
+    background-image: radial-gradient(
+        ellipse 80% 80% at 50% -20%,
+        rgba(120,119,198,0.3),
+        rgba(255,255,255,0)
+    );
 }
 
 .gold-gradient {
