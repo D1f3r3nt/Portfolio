@@ -1,14 +1,15 @@
 import {Navbar} from "../molecules/Navbar.tsx";
+import {ReactNode} from "react";
 
 interface PageProps {
-    children: any;
+    children: ReactNode;
 }
 
 export const Page = ({children}: PageProps) => {
   return (
       <>
-          <Navbar />
-          <div className="p-6 mt-14 lg:mt-0 lg:ml-64">
+          <div className='w-full h-auto flex justify-center items-center background-gradient'>
+              <Navbar />
               {children}
           </div>
       </>
