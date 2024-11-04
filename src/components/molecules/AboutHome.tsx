@@ -1,6 +1,6 @@
 export const AboutHome = () => {
   return (
-    <div className='w-full flex flex-col gap-y-12'>
+    <div className='w-full flex flex-col gap-y-12' id="about">
         <span className='font-bold'>
             Get to know me:
         </span>

@@ -23,6 +23,11 @@
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px;
+}
+
 hr {
     background-color: #374151;
     height: 1px;

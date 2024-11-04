@@ -3,7 +3,7 @@ import {ProjectItem} from "../atoms/ProjectItem.tsx";
 export const ProjectsHome = () => {
 
     return (
-        <div className='w-full flex flex-col gap-y-12'>
+        <div className='w-full flex flex-col gap-y-12' id="projects">
             <span className='font-bold'>
                 Here are some projects I've worked on:
             </span>

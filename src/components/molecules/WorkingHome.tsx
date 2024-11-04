@@ -2,7 +2,7 @@ import {WorkingItem} from "../atoms/WorkingItem.tsx";
 
 export const WorkingHome = () => {
   return (
-      <div className='w-full'>
+      <div className='w-full' id="working">
           <span className='font-bold'>
               Working experience:
           </span>
