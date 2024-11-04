@@ -1,9 +1,11 @@
+import {LINKEDIN} from "../../utils/Constants.ts";
+
 export const WorkButton = () => {
   return (
       <div className='flex justify-start'>
           <a
               className="flex transition md:justify-center md:hover:scale-105"
-              href="https://www.linkedin.com/in/marc-santisteban-ruiz/"
+              href={LINKEDIN}
               target="_blank"
               rel="noopener"
           >

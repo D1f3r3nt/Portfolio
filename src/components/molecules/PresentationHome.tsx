@@ -1,4 +1,5 @@
 import {WorkButton} from "../atoms/WorkButton.tsx";
+import {JOB, NAME} from "../../utils/Constants.ts";
 
 export const PresentationHome = () => {
 
@@ -8,10 +9,18 @@ export const PresentationHome = () => {
           <div className='w-full grid grid-cols-3'>
               <div className='w-full col-span-2'>
                   <div className='text-[36px] font-bold'>
-                      Marc Santisteban
+                      {NAME}
                   </div>
                   <div className='text-[30px] strong-style'>
-                      Solutions Architect <br/> Fullstack Web & Mobile
+                      {
+                          JOB.split('\n').map((value, index) => {
+                              if (index === 0) {
+                                  return (<>{value}</>)
+                              } else {
+                                  return (<><br/>{value}</>)
+                              }
+                          })
+                      }
                   </div>
               </div>
               <div className='flex justify-center'>
