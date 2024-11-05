@@ -1,16 +1,22 @@
 import {Language} from "../../utils/Language.ts";
 import {LanguageTag} from "./LanguageTag.tsx";
+import {LinkButton} from "./LinkButton.tsx";
+import {Github} from "../../utils/Icons.tsx";
 
 interface ProjectItemProps {
     title: string;
     description: string;
+    gitUrl: string;
+    webUrl?: string;
     languages?: Language[]
 }
 
 export const ProjectItem = ({
     description,
     title,
-    languages
+    languages,
+    gitUrl,
+    webUrl
 } : ProjectItemProps) => {
   return (
       <div className='w-full flex align-top gap-x-2'>
@@ -21,13 +27,28 @@ export const ProjectItem = ({
               <div className='font-bold'>
                   {title}
               </div>
+
               <div className='flex gap-x-2'>
                   {
                       languages?.map(value => <LanguageTag language={value}/>)
                   }
               </div>
+
               <div className='text-light'>
                   {description}
+              </div>
+
+              <div className='flex gap-x-2'>
+                  <LinkButton href={gitUrl} className='w-min flex justify-center items-center rounded-[12px]' >
+                      <Github /><span className='ml-1 text-[15px]'>Code</span>
+                  </LinkButton>
+                  {
+                      webUrl &&
+                      <LinkButton href={webUrl} className='w-min flex justify-center items-center px-4 rounded-[12px]' >
+                          <img src="../src/assets/icons/link.svg" alt="Link" className='w-[18px] h-auto'/>
+                          <span className='ml-1 text-[15px]'>Preview</span>
+                      </LinkButton>
+                  }
               </div>
           </div>
       </div>

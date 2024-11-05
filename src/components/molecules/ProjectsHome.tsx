@@ -13,6 +13,8 @@ export const ProjectsHome = () => {
                 title={'Project Name 1'}
                 description={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ad neque doloribus quod exercitationem est nulla reiciendis in unde eum.'}
                 languages={[Language.Jetpack]}
+                gitUrl='https://porfolio.dev/'
+                webUrl='https://porfolio.dev/'
             />
         </div>
     )
