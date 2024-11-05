@@ -27,8 +27,10 @@ export const PresentationHome = () => {
                   <img src="../src/assets/icons/flat_web.svg" alt="Web developer" className='h-[125px]'/>
               </div>
           </div>
-          <div className='text-light'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non ipsa sed hic illum ex corrupti quasi, corporis consequatur praesentium fugiat perferendis sunt molestias temporibus placeat magnam aspernatur sequi iure pariatur reprehenderit maxime doloremque ut facilis illo. Corrupti, vel et?
+          <div className='grid grid-cols-3'>
+              <div className='text-light col-span-2'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non ipsa sed hic illum ex corrupti quasi, corporis consequatur praesentium fugiat perferendis sunt molestias temporibus placeat magnam aspernatur sequi iure pariatur reprehenderit maxime doloremque ut facilis illo. Corrupti, vel et?
+              </div>
           </div>
           <div className='w-full grid grid-cols-2'>
               <div className='flex justify-center'>
