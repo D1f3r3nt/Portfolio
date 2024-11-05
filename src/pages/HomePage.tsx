@@ -3,6 +3,7 @@ import {PresentationHome} from "../components/molecules/PresentationHome.tsx";
 import {ProjectsHome} from "../components/molecules/ProjectsHome.tsx";
 import {WorkingHome} from "../components/molecules/WorkingHome.tsx";
 import {AboutHome} from "../components/molecules/AboutHome.tsx";
+import {CertificatesHome} from "../components/molecules/CertificatesHome.tsx";
 
 export const HomePage = () => {
 
@@ -18,6 +19,10 @@ export const HomePage = () => {
                 <hr/>
 
                 <ProjectsHome />
+
+                <hr/>
+
+                <CertificatesHome />
 
                 <hr/>
 

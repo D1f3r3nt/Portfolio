@@ -22,9 +22,9 @@ export const ProjectItem = ({
                   {title}
               </div>
               <div className='flex gap-x-2'>
-                  <LanguageTag language={Language.Flutter}/>
-                  <LanguageTag language={Language.NodeJS}/>
-                  <LanguageTag language={Language.JavaScript}/>
+                  {
+                      languages?.map(value => <LanguageTag language={value}/>)
+                  }
               </div>
               <div className='text-light'>
                   {description}
