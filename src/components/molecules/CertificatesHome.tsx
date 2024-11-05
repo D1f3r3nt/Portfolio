@@ -2,7 +2,7 @@ import {CertificateItem} from "../atoms/CertificateItem.tsx";
 
 export const CertificatesHome = () => {
     return (
-        <div className='w-full flex flex-col gap-y-12' id="projects">
+        <div className='w-full flex flex-col gap-y-12' id="certificates">
             <span className='font-bold'>
                 Certificates I've earned:
             </span>
