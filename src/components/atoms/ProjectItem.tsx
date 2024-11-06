@@ -30,7 +30,7 @@ export const ProjectItem = ({
 
               <div className='flex gap-x-2'>
                   {
-                      languages?.map(value => <LanguageTag language={value}/>)
+                      languages?.map(value => <LanguageTag key={value} language={value}/>)
                   }
               </div>
 

@@ -1,4 +1,4 @@
-import {NavbarLink} from "../atoms/NavbarLink.tsx";
+import {NavbarLink} from "../atoms/home/NavbarLink.tsx";
 import {EMAIL, PRE_BODY, SUBJECT} from "../../utils/Constants.ts";
 
 export const Navbar = () => {

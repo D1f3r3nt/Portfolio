@@ -1,5 +1,5 @@
-import {WorkButton} from "../atoms/WorkButton.tsx";
-import {JOB, NAME} from "../../utils/Constants.ts";
+import {WorkButton} from "../../atoms/home/WorkButton.tsx";
+import {JOB, NAME} from "../../../utils/Constants.ts";
 
 export const PresentationHome = () => {
 

@@ -1,6 +1,6 @@
-import {Github, LinkedIn, StackOverflow} from "../../utils/Icons.tsx";
-import {LinkButton} from "../atoms/LinkButton.tsx";
-import {GITHUB, LINKEDIN, STACK_OVERFLOW} from "../../utils/Constants.ts";
+import {Github, LinkedIn, StackOverflow} from "../../../utils/Icons.tsx";
+import {LinkButton} from "../../atoms/LinkButton.tsx";
+import {GITHUB, LINKEDIN, STACK_OVERFLOW} from "../../../utils/Constants.ts";
 
 export const AboutHome = () => {
     return (

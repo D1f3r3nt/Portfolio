@@ -1,5 +1,5 @@
-import {CertificateItem} from "../atoms/CertificateItem.tsx";
-import {ShowMoreButton} from "../atoms/ShowMoreButton.tsx";
+import {CertificateItem} from "../../atoms/CertificateItem.tsx";
+import {ShowMoreButton} from "../../atoms/home/ShowMoreButton.tsx";
 
 export const CertificatesHome = () => {
     return (

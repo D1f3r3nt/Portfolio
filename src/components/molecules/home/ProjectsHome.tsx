@@ -1,8 +1,10 @@
-import {ProjectItem} from "../atoms/ProjectItem.tsx";
-import {Language} from "../../utils/Language.ts";
-import {ShowMoreButton} from "../atoms/ShowMoreButton.tsx";
+import {ProjectItem} from "../../atoms/ProjectItem.tsx";
+import {Language} from "../../../utils/Language.ts";
+import {ShowMoreButton} from "../../atoms/home/ShowMoreButton.tsx";
+import { useNavigate} from "react-router-dom";
 
 export const ProjectsHome = () => {
+    const navigate = useNavigate()
 
     return (
         <div className='w-full flex flex-col gap-y-12' id="projects">
@@ -18,7 +20,7 @@ export const ProjectsHome = () => {
                 webUrl='https://porfolio.dev/'
             />
 
-            <ShowMoreButton label={'projects'} onClick={() => {}} />
+            <ShowMoreButton label={'projects'} onClick={() => navigate('/projects') } />
         </div>
     )
 }

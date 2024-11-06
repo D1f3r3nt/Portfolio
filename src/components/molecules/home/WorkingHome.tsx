@@ -1,4 +1,4 @@
-import {WorkingItem} from "../atoms/WorkingItem.tsx";
+import {WorkingItem} from "../../atoms/home/WorkingItem.tsx";
 
 export const WorkingHome = () => {
   return (
