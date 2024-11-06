@@ -1,5 +1,6 @@
 import {ProjectItem} from "../atoms/ProjectItem.tsx";
 import {Language} from "../../utils/Language.ts";
+import {ShowMoreButton} from "../atoms/ShowMoreButton.tsx";
 
 export const ProjectsHome = () => {
 
@@ -16,6 +17,8 @@ export const ProjectsHome = () => {
                 gitUrl='https://porfolio.dev/'
                 webUrl='https://porfolio.dev/'
             />
+
+            <ShowMoreButton label={'projects'} onClick={() => {}} />
         </div>
     )
 }
