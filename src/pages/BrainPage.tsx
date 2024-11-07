@@ -4,8 +4,8 @@ import '@xyflow/react/dist/style.css';
 import {useCallback, useEffect} from "react";
 import {LanguageNode} from "../components/atoms/nodes/LanguageNode.tsx";
 import {NODES} from "../utils/nodes/nodes.ts";
-import {EDGES} from "../utils/nodes/edges.ts";
 import {BeamNode} from "../components/atoms/nodes/BeamNode.tsx";
+import {useCustomEdges} from "../utils/nodes/edges.ts";
 
 const NODE_TYPES = {
     diferent: DiferentNode,
@@ -16,6 +16,7 @@ const NODE_TYPES = {
 export const BrainPage = () => {
 
     const {setCenter} = useReactFlow()
+    const edges = useCustomEdges()
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [nodes, _, onNodesChange] = useNodesState(NODES);
@@ -36,7 +37,7 @@ export const BrainPage = () => {
             <ReactFlow
                 id='flow'
                 nodes={nodes}
-                edges={EDGES}
+                edges={edges}
                 onNodesChange={onNodesChange}
                 nodeTypes={NODE_TYPES}
                 minZoom={0.7}

@@ -2,13 +2,13 @@ import {Language} from "../language.ts";
 
 export const NODES = [
     {
-        id: '1',
+        id: 'user',
         data: { label: '' },
         position: { x: 0, y: 0,},
         type: 'diferent'
     },
     {
-        id: '2',
+        id: 'frontend',
         data: { label: 'Frontend' },
         position: {
             x: 400,
@@ -17,47 +17,47 @@ export const NODES = [
         type: 'beam'
     },
     {
-        id: '3',
+        id: 'frontend_js',
         data: { label: '', language: Language.JavaScript },
         position: {
-            x: 300,
-            y: 250,
+            x: 600,
+            y: 300,
         },
         type: 'language'
     },
     {
-        id: '4',
+        id: 'frontend_java',
         data: { label: '', language: Language.Java },
         position: {
-            x: 350,
+            x: 200,
             y: 300,
         },
         type: 'language'
     },
     {
-        id: '5',
+        id: 'frontend_ts',
         data: { label: '', language: Language.TypeScript },
         position: {
-            x: 450,
-            y: 300,
+            x: 550,
+            y: 400,
         },
         type: 'language'
     },
     {
-        id: '6',
+        id: 'frontend_html',
         data: { label: '', language: Language.HTML },
         position: {
-            x: 450,
-            y: 300,
+            x: 250,
+            y: 400,
         },
         type: 'language'
     },
     {
-        id: '7',
+        id: 'frontend_css',
         data: { label: '', language: Language.CSS },
         position: {
-            x: 450,
-            y: 300,
+            x: 400,
+            y: 400,
         },
         type: 'language'
     },
