@@ -1,8 +1,9 @@
 import {Language} from "./language.ts";
 import {
     Android,
-    Apple,
+    Apple, CSS, Dart,
     Flutter,
+    HTML5,
     Java,
     JavaScript, Kotlin,
     Nodejs,
@@ -37,8 +38,14 @@ export const getIcon = (language: Language) => {
             return <TypeScript/>;
         case Language.TailwindCSS:
             return <TailwindCSS />;
+        case Language.HTML:
+            return <HTML5 />;
         case Language.Kotlin:
             return <Kotlin/>;
+        case Language.CSS:
+            return <CSS/>;
+        case Language.DART:
+            return <Dart/>;
     }
 }
 
@@ -66,6 +73,12 @@ export const getColors = (language: Language) => {
             return 'bg-blue-400 bg-opacity-50';
         case Language.TailwindCSS:
             return 'bg-blue-300 bg-opacity-50';
+        case Language.HTML:
+            return 'bg-orange-500 bg-opacity-50';
+        case Language.CSS:
+            return 'bg-blue-300 bg-opacity-50';
+        case Language.DART:
+            return 'bg-blue-800 bg-opacity-50';
         case Language.Kotlin:
             return 'bg-[#9449f9] bg-opacity-50';
     }

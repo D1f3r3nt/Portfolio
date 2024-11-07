@@ -10,5 +10,8 @@ export enum Language {
     TypeScript = "TypeScript",
     React = "React",
     NodeJS = "NodeJS",
-    TailwindCSS = "TailwindCSS"
+    TailwindCSS = "TailwindCSS",
+    HTML = "HTML",
+    CSS = "CSS",
+    DART = "DART",
 }
