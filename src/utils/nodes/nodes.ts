@@ -157,6 +157,33 @@ const backend = [
         },
         type: 'technology'
     },
+    {
+        id: 'springBoot',
+        data: { label: 'Spring Boot' },
+        position: {
+            x: -250,
+            y: 580,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'springGateway',
+        data: { label: 'Spring Gateway' },
+        position: {
+            x: -300,
+            y: 660,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'springSecurity',
+        data: { label: 'Spring Security' },
+        position: {
+            x: -350,
+            y: 580,
+        },
+        type: 'subTechnology'
+    },
 ]
 
 export const NODES = [

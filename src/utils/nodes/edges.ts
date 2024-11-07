@@ -17,6 +17,9 @@ const connections: string[] = [
     'backend_js->node',
     'backend_swift->vapor',
     'backend_java->spring',
+    'spring->springBoot',
+    'spring->springGateway',
+    'spring->springSecurity',
 ]
 
 export const useCustomEdges = () => {
