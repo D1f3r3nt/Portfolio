@@ -23,8 +23,8 @@ const frontend = [
         id: 'frontend_java',
         data: { label: '', language: Language.Java },
         position: {
-            x: 120,
-            y: 270,
+            x: 270,
+            y: 350,
         },
         type: 'language'
     },
@@ -41,8 +41,8 @@ const frontend = [
         id: 'frontend_html',
         data: { label: '', language: Language.HTML },
         position: {
-            x: 270,
-            y: 350,
+            x: 120,
+            y: 270,
         },
         type: 'language'
     },
@@ -61,6 +61,33 @@ const frontend = [
         position: {
             x: 630,
             y: 30,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'tailwind',
+        data: { label: 'Tailwind' },
+        position: {
+            x: 680,
+            y: 300,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'bootstrap',
+        data: { label: 'Bootstrap' },
+        position: {
+            x: 600,
+            y: 450,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'thymeleaf',
+        data: { label: 'Thymeleaf' },
+        position: {
+            x: 300,
+            y: 520,
         },
         type: 'technology'
     },

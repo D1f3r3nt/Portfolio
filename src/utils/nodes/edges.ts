@@ -7,6 +7,9 @@ const connections: string[] = [
     'frontend->frontend_java',
     'frontend_js->react',
     'frontend_ts->react',
+    'frontend_css->tailwind',
+    'frontend_css->bootstrap',
+    'frontend_java->thymeleaf',
 ]
 
 export const useCustomEdges = () => {
