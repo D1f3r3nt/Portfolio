@@ -61,7 +61,8 @@ hr {
     --s: 8px;  /* control the size of the cut */
     --a: 4deg; /* control the depth of the curvature */
 
-    width: 100px;
+    width: 120px;
+    aspect-ratio: 1;
     background: cadetblue;
     border-radius: var(--r);
     --_m:0/calc(2*var(--r)) var(--r) no-repeat

@@ -1,5 +1,6 @@
 const connections: string[] = [
     'user->frontend',
+    'user->backend',
     'frontend->frontend_css',
     'frontend->frontend_js',
     'frontend->frontend_ts',
@@ -10,6 +11,12 @@ const connections: string[] = [
     'frontend_css->tailwind',
     'frontend_css->bootstrap',
     'frontend_java->thymeleaf',
+    'backend->backend_js',
+    'backend->backend_swift',
+    'backend->backend_java',
+    'backend_js->node',
+    'backend_swift->vapor',
+    'backend_java->spring',
 ]
 
 export const useCustomEdges = () => {

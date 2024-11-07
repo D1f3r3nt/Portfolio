@@ -5,8 +5,8 @@ const frontend = [
         id: 'frontend',
         data: { label: 'Frontend' },
         position: {
-            x: 300,
-            y: 200,
+            x: 260,
+            y: 140,
         },
         type: 'beam'
     },
@@ -93,6 +93,72 @@ const frontend = [
     },
 ];
 
+const backend = [
+    {
+        id: 'backend',
+        data: { label: 'Backend' },
+        position: {
+            x: -300,
+            y: 150,
+        },
+        type: 'beam'
+    },
+    {
+        id: 'backend_js',
+        data: { label: '', language: Language.JavaScript },
+        position: {
+            x: -500,
+            y: 150,
+        },
+        type: 'language'
+    },
+    {
+        id: 'backend_java',
+        data: { label: '', language: Language.Java },
+        position: {
+            x: -300,
+            y: 350,
+        },
+        type: 'language'
+    },
+    {
+        id: 'backend_swift',
+        data: { label: '', language: Language.Swift },
+        position: {
+            x: -470,
+            y: 280,
+        },
+        type: 'language'
+    },
+    {
+        id: 'vapor',
+        data: { label: 'Vapor' },
+        position: {
+            x: -650,
+            y: 370,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'node',
+        data: { label: 'Node' },
+        position: {
+            x: -670,
+            y: 70,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'spring',
+        data: { label: 'Spring' },
+        position: {
+            x: -300,
+            y: 500,
+        },
+        type: 'technology'
+    },
+]
+
 export const NODES = [
     {
         id: 'user',
@@ -100,5 +166,6 @@ export const NODES = [
         position: { x: 0, y: 0,},
         type: 'diferent'
     },
-    ...frontend
+    ...frontend,
+    ...backend,
 ];

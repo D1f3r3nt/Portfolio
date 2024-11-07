@@ -27,7 +27,7 @@ export const BrainPage = () => {
         const node = nodes[0];
         const x = node.position.x;
         const y = node.position.y;
-        setCenter(x, y + 300, {zoom: 0.7, duration: 0});
+        setCenter(x, y, {zoom: 0.6, duration: 0});
     }, [setCenter]);
 
     useEffect(() => {
@@ -42,7 +42,7 @@ export const BrainPage = () => {
                 edges={edges}
                 onNodesChange={onNodesChange}
                 nodeTypes={NODE_TYPES}
-                minZoom={0.7}
+                minZoom={0.6}
                 maxZoom={1.3}
             >
                 <Background color='transparent'/>
