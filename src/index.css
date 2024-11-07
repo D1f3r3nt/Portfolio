@@ -50,3 +50,19 @@ hr {
 .strong-style {
     color: #FEF08A;
 }
+
+.react-flow__panel {
+    display: none;
+}
+
+.react-flow__node:hover {
+    box-shadow: #FEF08A 0px 0px 10px;
+}
+
+.react-flow__node-diferent {
+    border-radius: 50%;
+}
+
+.react-flow__node-diferent > * {
+    color: black;
+}
