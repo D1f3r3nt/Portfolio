@@ -1,5 +1,5 @@
 import {ProjectItem} from "../../atoms/ProjectItem.tsx";
-import {Language} from "../../../utils/Language.ts";
+import {Language} from "../../../utils/language.ts";
 import {ShowMoreButton} from "../../atoms/home/ShowMoreButton.tsx";
 import { useNavigate} from "react-router-dom";
 

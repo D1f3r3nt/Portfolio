@@ -1,7 +1,7 @@
-import {Language} from "../../utils/Language.ts";
+import {Language} from "../../utils/language.ts";
 import {LanguageTag} from "./LanguageTag.tsx";
 import {LinkButton} from "./LinkButton.tsx";
-import {Github} from "../../utils/Icons.tsx";
+import {Github} from "../../utils/icons.tsx";
 
 interface ProjectItemProps {
     title: string;

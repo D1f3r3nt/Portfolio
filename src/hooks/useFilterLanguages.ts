@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {Language} from "../utils/Language.ts";
+import {Language} from "../utils/language.ts";
 
 export const useFilterLanguages = () => {
     const [selectedLanguages, setSelectedLanguages] = useState<Language[]>([])

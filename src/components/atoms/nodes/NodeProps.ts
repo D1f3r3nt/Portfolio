@@ -1,7 +1,6 @@
-export interface NodeProps {
-    data: DataNode;
-}
+import {Language} from "../../../utils/language.ts";
 
-interface DataNode {
-    label: string
+export interface LanguageNodeTypo {
+    label: string;
+    language: Language;
 }

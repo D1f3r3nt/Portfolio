@@ -1,4 +1,4 @@
-import {LINKEDIN} from "../../../utils/Constants.ts";
+import {LINKEDIN} from "../../../utils/constants.ts";
 
 export const WorkButton = () => {
   return (

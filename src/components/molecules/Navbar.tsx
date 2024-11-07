@@ -1,5 +1,5 @@
 import {NavbarLink} from "../atoms/home/NavbarLink.tsx";
-import {EMAIL, PRE_BODY, SUBJECT} from "../../utils/Constants.ts";
+import {EMAIL, PRE_BODY, SUBJECT} from "../../utils/constants.ts";
 
 export const Navbar = () => {
 

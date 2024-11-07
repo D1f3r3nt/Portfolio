@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Fonts */
 @font-face {
     font-family: 'roboto';
     src: url('./assets/fonts/RobotoRegular.ttf');
@@ -23,10 +24,14 @@
     color: white;
 }
 
+/*General*/
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 150px;
 }
+
+/* Web style */
 
 hr {
     background-color: #374151;
@@ -51,6 +56,8 @@ hr {
     color: #FEF08A;
 }
 
+/* Diagram */
+
 .react-flow__panel {
     display: none;
 }
@@ -59,10 +66,23 @@ hr {
     box-shadow: #FEF08A 0px 0px 10px;
 }
 
-.react-flow__node-diferent {
-    border-radius: 50%;
+.react-flow__handle.target {
+    opacity: 0;
 }
 
-.react-flow__node-diferent > * {
-    color: black;
+.react-flow__handle.source {
+    opacity: 0;
+}
+
+/* Custom nodes */
+
+.react-flow__node-diferent {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.react-flow__node-language {
+    width: 100px;
+    border-radius: 4px;
 }

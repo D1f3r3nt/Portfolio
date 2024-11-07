@@ -1,5 +1,5 @@
 import {Page} from "../components/organisms/Page.tsx";
-import {Language} from "../utils/Language.ts";
+import {Language} from "../utils/language.ts";
 import {ProjectItem} from "../components/atoms/ProjectItem.tsx";
 import {BackButton} from "../components/atoms/BackButton.tsx";
 import {LanguageTag} from "../components/atoms/LanguageTag.tsx";
