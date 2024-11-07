@@ -6,11 +6,13 @@ import {LanguageNode} from "../components/atoms/nodes/LanguageNode.tsx";
 import {NODES} from "../utils/nodes/nodes.ts";
 import {BeamNode} from "../components/atoms/nodes/BeamNode.tsx";
 import {useCustomEdges} from "../utils/nodes/edges.ts";
+import {TechnologyNode} from "../components/atoms/nodes/TechnologyNode.tsx";
 
 const NODE_TYPES = {
     diferent: DiferentNode,
     language: LanguageNode,
     beam: BeamNode,
+    technology: TechnologyNode
 }
 
 export const BrainPage = () => {

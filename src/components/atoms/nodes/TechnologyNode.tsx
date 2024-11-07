@@ -1,14 +1,14 @@
 import {CustomNode} from "./CustomNode.tsx";
 import {DataNode} from "./NodeProps.ts";
 
-interface BeamNodeProps {
+interface TechnologyNodeProps {
     data: DataNode
 }
 
-export const BeamNode = ({ data }: BeamNodeProps) => {
+export const TechnologyNode = ({data}: TechnologyNodeProps) => {
   return (
       <CustomNode>
-          <div className='w-full h-full inner-curve bg-blue-700 p-4 hover:scale-105'>
+          <div className='w-full h-full hexagon bg-violet-800 p-4 hover:scale-105'>
               {data.label}
           </div>
       </CustomNode>

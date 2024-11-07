@@ -94,16 +94,18 @@ hr {
     display: none;
 }
 
-.react-flow__node:hover {
-    box-shadow: #FEF08A 0px 0px 10px;
-}
-
 .react-flow__handle.target {
     opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .react-flow__handle.source {
     opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Custom nodes */

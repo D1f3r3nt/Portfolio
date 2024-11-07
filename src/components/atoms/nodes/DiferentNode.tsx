@@ -8,7 +8,7 @@ export const DiferentNode = memo(() => {
             <img
                 src="../../src/assets/icons/perfil.webp"
                 alt="Profile image"
-                className='w-full h-full rounded-full'
+                className='w-full h-full rounded-full hover:scale-105'
             />
         </CustomNode>
 

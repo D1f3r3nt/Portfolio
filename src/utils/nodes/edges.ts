@@ -4,7 +4,9 @@ const connections: string[] = [
     'frontend->frontend_js',
     'frontend->frontend_ts',
     'frontend->frontend_html',
-    'frontend->frontend_java'
+    'frontend->frontend_java',
+    'frontend_js->react',
+    'frontend_ts->react',
 ]
 
 export const useCustomEdges = () => {
@@ -13,7 +15,7 @@ export const useCustomEdges = () => {
         const points= connection.split('->')
 
         return {
-            type: 'bezier',
+            type: 'straight',
             source: points[1],
             target: points[0],
             id: connection,
