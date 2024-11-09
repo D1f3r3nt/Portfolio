@@ -29,17 +29,17 @@ export const PresentationHome = () => {
                     </div>
                 </div>
                 <div className='flex justify-center'>
-                    <img src="../src/assets/icons/flat_web.svg" alt="Web developer" className='h-[125px]'/>
+                    <img src="../src/assets/icons/flat_web.svg" alt="Web developer" className='h-[125px] md:block hidden'/>
                 </div>
             </div>
-            <div className='grid grid-cols-3'>
-                <div className='text-light col-span-2'>
+            <div className='w-full md:grid md:grid-cols-3'>
+                <div className='text-light md:col-span-2'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non ipsa sed hic illum ex corrupti
                     quasi, corporis consequatur praesentium fugiat perferendis sunt molestias temporibus placeat magnam
                     aspernatur sequi iure pariatur reprehenderit maxime doloremque ut facilis illo. Corrupti, vel et?
                 </div>
             </div>
-            <div className='w-full flex gap-x-2'>
+            <div className='w-full flex flex-wrap gap-2'>
                 <PresentationButton
                     onClick={() => {
                         navigateOutside(`mailto:${EMAIL}?subject=${SUBJECT}&body=${PRE_BODY}`)
@@ -64,10 +64,10 @@ export const PresentationHome = () => {
             </div>
             <div className='w-full grid grid-cols-2'>
                 <div className='flex justify-center'>
-                    <img src="../src/assets/icons/flat_cloud.svg" alt="Solution Architect" className='h-[125px]'/>
+                    <img src="../src/assets/icons/flat_cloud.svg" alt="Solution Architect" className='h-[125px] md:block hidden'/>
                 </div>
                 <div className='flex justify-center'>
-                    <img src="../src/assets/icons/flat_mobile.svg" alt="Mobile developer" className='h-[125px]'/>
+                    <img src="../src/assets/icons/flat_mobile.svg" alt="Mobile developer" className='h-[125px] md:block hidden'/>
                 </div>
             </div>
         </div>

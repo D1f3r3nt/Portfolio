@@ -9,8 +9,8 @@ export const AboutHome = () => {
             Get to know me:
         </span>
 
-            <div className='w-full grid grid-cols-4'>
-                <div className='text-light pr-10 col-span-3'>
+            <div className='w-full flex flex-col-reverse md:grid md:grid-cols-4'>
+                <div className='text-light md:pr-10 md:col-span-3'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non ipsa sed hic illum ex corrupti quasi, corporis consequatur praesentium fugiat perferendis sunt molestias temporibus placeat magnam aspernatur sequi iure pariatur reprehenderit maxime doloremque ut facilis illo. Corrupti, vel et?
 
                     <br/>
@@ -24,7 +24,7 @@ export const AboutHome = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non ipsa sed hic illum ex corrupti quasi, corporis consequatur praesentium fugiat perferendis sunt molestias temporibus placeat magnam aspernatur sequi iure pariatur reprehenderit maxime doloremque ut facilis illo. Corrupti, vel et?
                 </div>
 
-                <div className='flex flex-col items-center gap-y-4'>
+                <div className='flex flex-col mb-5 md:mb-0 items-center gap-y-4'>
                     <img
                         src="../../src/assets/icons/perfil.webp"
                         alt="Profile image"

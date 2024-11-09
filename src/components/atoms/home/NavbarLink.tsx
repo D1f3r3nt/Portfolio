@@ -10,6 +10,6 @@ export const NavbarLink = ({
     children
 } : NavbarLinkProps) => {
   return (
-      <a className='transition text-gray-200 hover:text-blue-500 text-[14px]' href={href}>{children}</a>
+      <a className='transition text-gray-200 md:hover:text-blue-500 text-[14px]' href={href}>{children}</a>
   )
 }

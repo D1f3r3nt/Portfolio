@@ -20,7 +20,7 @@ export const LanguageTag = ({
         <div
             className={`flex justify-center items-center 
             w-min rounded-full py-1 px-2
-            ${clickable ? 'hover:cursor-pointer' : ''}
+            ${clickable ? 'md:hover:cursor-pointer' : ''}
             ${clickable && !clicked ? 'bg-gray-600' : getColors(language)}`}
             onClick={setClicked}
         >

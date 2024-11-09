@@ -14,10 +14,14 @@ export const Page = ({children, showNavbar = true}: PageProps) => {
                     showNavbar &&
                     <Navbar/>
                 }
-                <div className={`w-full lg:max-w-4xl md:max-w-2xl ${showNavbar ? 'py-[150px]' : 'py-[100px]'} flex flex-col gap-y-16 px-4`}>
+                <div className={
+                    `w-full lg:max-w-4xl md:max-w-2xl 
+                    ${showNavbar ? 'md:py-[150px]' : 'md:py-[100px]'} 
+                    flex flex-col gap-y-16 py-10 px-4`
+                }>
                     {children}
                 </div>
-                <footer className='w-full lg:max-w-4xl md:max-w-2xl text-[#e4e4e7e6] text-[14px] flex justify-end mb-5'>
+                <footer className='w-full lg:max-w-4xl md:max-w-2xl text-[#e4e4e7e6] text-[14px] flex justify-end mb-5 px-4'>
                     © 2024 msantisteban. Casi todos los derechos reservados
                 </footer>
             </div>

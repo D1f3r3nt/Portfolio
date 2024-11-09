@@ -13,7 +13,7 @@ export const LinkButton = ({
 }: LinkButtonProps) => {
   return (
       <a
-          className={`p-2 bg-[#1e2737] rounded border-[1px] border-[#3b3e54] hover:cursor-pointer ${className}`}
+          className={`p-2 bg-[#1e2737] rounded border-[1px] border-[#3b3e54] md:hover:cursor-pointer ${className}`}
           href={href}
           target="_blank"
           rel="noopener"

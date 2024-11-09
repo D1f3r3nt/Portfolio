@@ -19,7 +19,7 @@ export const CertificateItem = ({
             rel="noopener"
         >
             <div>
-                <img src="../src/assets/icons/diploma.svg" alt="Diploma" className='w-[32px] h-auto'/>
+                <img src="../src/assets/icons/diploma.svg" alt="Diploma" className='min-w-[32px] w-[32px] h-auto'/>
             </div>
             <div className='flex flex-col gap-y-2'>
                 <h3 className='text-xl font-bold strong-style'>{title}</h3>
