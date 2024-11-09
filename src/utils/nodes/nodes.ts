@@ -59,8 +59,8 @@ const frontend = [
         id: 'react',
         data: { label: 'React' },
         position: {
-            x: 630,
-            y: 30,
+            x: 650,
+            y: 100,
         },
         type: 'technology'
     },
@@ -354,6 +354,224 @@ const cloud = [
     },
 ]
 
+const others = [
+    {
+        id: 'others',
+        data: { label: 'Others' },
+        position: {
+            x: 600,
+            y: -300,
+        },
+        type: 'beam'
+    },
+    {
+        id: 'jwt',
+        data: { label: 'Jwt' },
+        position: {
+            x: 300,
+            y: -300,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'oauth',
+        data: { label: 'OAuth' },
+        position: {
+            x: 400,
+            y: -430,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'figma',
+        data: { label: 'Figma' },
+        position: {
+            x: 580,
+            y: -520,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'git',
+        data: { label: 'Git' },
+        position: {
+            x: 780,
+            y: -450,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'kubernetes',
+        data: { label: 'Kubernetes' },
+        position: {
+            x: 880,
+            y: -300,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'docker',
+        data: { label: 'Docker' },
+        position: {
+            x: 860,
+            y: -150,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'redis',
+        data: { label: 'Redis' },
+        position: {
+            x: 530,
+            y: -70,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'jira',
+        data: { label: 'Jira' },
+        position: {
+            x: 800,
+            y: 0,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'database',
+        data: { label: 'Database' },
+        position: {
+            x: 1000,
+            y: -200,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'ui/ux',
+        data: { label: 'UI/UX' },
+        position: {
+            x: 530,
+            y: -605,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'neumorphism',
+        data: { label: 'Neumor- phism' },
+        position: {
+            x: 630,
+            y: -605,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'github',
+        data: { label: 'Github' },
+        position: {
+            x: 880,
+            y: -450,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'gitlab',
+        data: { label: 'Gitlab' },
+        position: {
+            x: 830,
+            y: -535,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'gitea',
+        data: { label: 'Gitea' },
+        position: {
+            x: 930,
+            y: -535,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'bitbucket',
+        data: { label: 'Bitbucket' },
+        position: {
+            x: 980,
+            y: -450,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'oracle',
+        data: { label: 'Oracle' },
+        position: {
+            x: 1100,
+            y: -200,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'mariadb',
+        data: { label: 'MariaDB' },
+        position: {
+            x: 1050,
+            y: -115,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'mysql',
+        data: { label: 'MySQL' },
+        position: {
+            x: 1050,
+            y: -285,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'mongo',
+        data: { label: 'MongoDB' },
+        position: {
+            x: 1150,
+            y: -115,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'postgreSql',
+        data: { label: 'PostgreSQL' },
+        position: {
+            x: 1150,
+            y: -285,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'scrum',
+        data: { label: 'Scrum' },
+        position: {
+            x: 900,
+            y: 0,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'agile',
+        data: { label: 'Agile' },
+        position: {
+            x: 850,
+            y: 85,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'kanban',
+        data: { label: 'Kanban' },
+        position: {
+            x: 950,
+            y: 85,
+        },
+        type: 'subTechnology'
+    },
+]
 
 export const NODES = [
     {
@@ -365,5 +583,6 @@ export const NODES = [
     ...frontend,
     ...backend,
     ...mobile,
-    ...cloud
+    ...cloud,
+    ...others
 ];

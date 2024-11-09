@@ -3,6 +3,7 @@ const connections: string[] = [
     'user->backend',
     'user->mobile',
     'user->cloud',
+    'user->others',
 
     'frontend->frontend_css',
     'frontend->frontend_js',
@@ -48,6 +49,34 @@ const connections: string[] = [
     'cloud->aws',
 
     'google->firebase',
+
+    'others->jwt',
+    'others->oauth',
+    'others->figma',
+    'others->git',
+    'others->kubernetes',
+    'others->docker',
+    'others->redis',
+    'others->jira',
+    'others->database',
+
+    'figma->ui/ux',
+    'figma->neumorphism',
+
+    'git->github',
+    'git->gitlab',
+    'git->gitea',
+    'git->bitbucket',
+
+    'database->mysql',
+    'database->postgreSql',
+    'database->mongo',
+    'database->mariadb',
+    'database->oracle',
+
+    'jira->scrum',
+    'jira->agile',
+    'jira->kanban',
 ]
 
 export const useCustomEdges = () => {
