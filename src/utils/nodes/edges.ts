@@ -2,6 +2,7 @@ const connections: string[] = [
     'user->frontend',
     'user->backend',
     'user->mobile',
+    'user->cloud',
 
     'frontend->frontend_css',
     'frontend->frontend_js',
@@ -40,6 +41,13 @@ const connections: string[] = [
 
     'flutter->getX',
     'flutter->bloc',
+
+    'cloud->fly',
+    'cloud->netlify',
+    'cloud->google',
+    'cloud->aws',
+
+    'google->firebase',
 ]
 
 export const useCustomEdges = () => {

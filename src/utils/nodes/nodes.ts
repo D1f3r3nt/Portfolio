@@ -297,6 +297,64 @@ const mobile = [
     },
 ]
 
+const cloud = [
+    {
+        id: 'cloud',
+        data: { label: 'Cloud' },
+        position: {
+            x: -100,
+            y: -300,
+        },
+        type: 'beam'
+    },
+    {
+        id: 'fly',
+        data: { label: 'Fly.io' },
+        position: {
+            x: -300,
+            y: -350,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'netlify',
+        data: { label: 'Netlify' },
+        position: {
+            x: -150,
+            y: -500,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'aws',
+        data: { label: 'AWS' },
+        position: {
+            x: 150,
+            y: -350,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'google',
+        data: { label: 'Google' },
+        position: {
+            x: 30,
+            y: -500,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'firebase',
+        data: { label: 'Firebase' },
+        position: {
+            x: 80,
+            y: -585,
+        },
+        type: 'subTechnology'
+    },
+]
+
+
 export const NODES = [
     {
         id: 'user',
@@ -306,5 +364,6 @@ export const NODES = [
     },
     ...frontend,
     ...backend,
-    ...mobile
+    ...mobile,
+    ...cloud
 ];
