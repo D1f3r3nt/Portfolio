@@ -44,7 +44,7 @@ export const getIcon = (language: Language) => {
             return <Kotlin/>;
         case Language.CSS:
             return <CSS/>;
-        case Language.DART:
+        case Language.Dart:
             return <Dart/>;
     }
 }
@@ -77,7 +77,7 @@ export const getColors = (language: Language) => {
             return 'bg-orange-500 bg-opacity-50';
         case Language.CSS:
             return 'bg-blue-300 bg-opacity-50';
-        case Language.DART:
+        case Language.Dart:
             return 'bg-blue-800 bg-opacity-50';
         case Language.Kotlin:
             return 'bg-[#9449f9] bg-opacity-50';

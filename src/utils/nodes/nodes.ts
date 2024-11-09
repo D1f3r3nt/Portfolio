@@ -144,7 +144,7 @@ const backend = [
         data: { label: 'Node' },
         position: {
             x: -670,
-            y: 70,
+            y: 150,
         },
         type: 'technology'
     },
@@ -186,6 +186,99 @@ const backend = [
     },
 ]
 
+const mobile = [
+    {
+        id: 'mobile',
+        data: { label: 'Mobile' },
+        position: {
+            x: -700,
+            y: -100,
+        },
+        type: 'beam'
+    },
+    {
+        id: 'mobile_java',
+        data: { label: '', language: Language.Java },
+        position: {
+            x: -850,
+            y: 90,
+        },
+        type: 'language'
+    },
+    {
+        id: 'mobile_kotlin',
+        data: { label: '', language: Language.Kotlin },
+        position: {
+            x: -950,
+            y: -100,
+        },
+        type: 'language'
+    },
+    {
+        id: 'mobile_dart',
+        data: { label: '', language: Language.Dart },
+        position: {
+            x: -820,
+            y: -280,
+        },
+        type: 'language'
+    },
+    {
+        id: 'mobile_swift',
+        data: { label: '', language: Language.Swift },
+        position: {
+            x: -600,
+            y: -350,
+        },
+        type: 'language'
+    },
+    {
+        id: 'flutter',
+        data: { label: 'Flutter' },
+        position: {
+            x: -1000,
+            y: -380,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'xmlLayouts',
+        data: { label: 'XML Layouts' },
+        position: {
+            x: -1000,
+            y: 150,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'swiftUi',
+        data: { label: 'SwiftUI' },
+        position: {
+            x: -530,
+            y: -480,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'xibs',
+        data: { label: 'Xibs' },
+        position: {
+            x: -670,
+            y: -480,
+        },
+        type: 'technology'
+    },
+    {
+        id: 'jetpack',
+        data: { label: 'Jetpack Compose' },
+        position: {
+            x: -1100,
+            y: -110,
+        },
+        type: 'technology'
+    },
+]
+
 export const NODES = [
     {
         id: 'user',
@@ -195,4 +288,5 @@ export const NODES = [
     },
     ...frontend,
     ...backend,
+    ...mobile
 ];

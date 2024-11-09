@@ -1,6 +1,7 @@
 const connections: string[] = [
     'user->frontend',
     'user->backend',
+    'user->mobile',
     'frontend->frontend_css',
     'frontend->frontend_js',
     'frontend->frontend_ts',
@@ -20,6 +21,15 @@ const connections: string[] = [
     'spring->springBoot',
     'spring->springGateway',
     'spring->springSecurity',
+    'mobile->mobile_java',
+    'mobile->mobile_kotlin',
+    'mobile->mobile_swift',
+    'mobile->mobile_dart',
+    'mobile_dart->flutter',
+    'mobile_swift->xibs',
+    'mobile_swift->swiftUi',
+    'mobile_kotlin->jetpack',
+    'mobile_java->xmlLayouts',
 ]
 
 export const useCustomEdges = () => {

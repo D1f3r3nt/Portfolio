@@ -13,5 +13,5 @@ export enum Language {
     TailwindCSS = "TailwindCSS",
     HTML = "HTML",
     CSS = "CSS",
-    DART = "DART",
+    Dart = "Dart",
 }
