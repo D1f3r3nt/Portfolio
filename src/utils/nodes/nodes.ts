@@ -277,6 +277,24 @@ const mobile = [
         },
         type: 'technology'
     },
+    {
+        id: 'bloc',
+        data: { label: 'Bloc' },
+        position: {
+            x: -1100,
+            y: -380,
+        },
+        type: 'subTechnology'
+    },
+    {
+        id: 'getX',
+        data: { label: 'Get X' },
+        position: {
+            x: -1050,
+            y: -465,
+        },
+        type: 'subTechnology'
+    },
 ]
 
 export const NODES = [
