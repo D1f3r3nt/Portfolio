@@ -1,10 +1,13 @@
 import {ProjectItem} from "../../atoms/ProjectItem.tsx";
-import {Language} from "../../../utils/language.ts";
 import {ShowMoreButton} from "../../atoms/home/ShowMoreButton.tsx";
-import { useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
+import {useGithubData} from "../../../hooks/useGithubData.ts";
+import {Loader} from "../../atoms/Loader.tsx";
 
 export const ProjectsHome = () => {
     const navigate = useNavigate()
+    const {isLoading, data} = useGithubData()
+    const offset = 3;
 
     return (
         <div className='w-full flex flex-col gap-y-12' id="projects">
@@ -12,15 +15,27 @@ export const ProjectsHome = () => {
                 Here are some projects I've worked on:
             </span>
 
-            <ProjectItem
-                title={'Project Name 1'}
-                description={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ad neque doloribus quod exercitationem est nulla reiciendis in unde eum.'}
-                languages={[Language.Jetpack]}
-                gitUrl='https://porfolio.dev/'
-                webUrl='https://porfolio.dev/'
-            />
-
-            <ShowMoreButton label={'projects'} onClick={() => navigate('/projects') } />
+            {
+                isLoading &&
+                <Loader />
+            }
+            {
+                !isLoading &&
+                data.length > 0 &&
+                data.slice(0, offset).map(value => <ProjectItem
+                    key={value.id}
+                    title={value.name}
+                    description={value.description}
+                    gitUrl={value.url}
+                    languages={value.languages}
+                    webUrl={value.website}
+                />)
+            }
+            {
+                !isLoading &&
+                data.length > offset &&
+                <ShowMoreButton label={'projects'} onClick={() => navigate('/projects')}/>
+            }
         </div>
     )
 }
