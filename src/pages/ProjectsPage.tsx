@@ -4,10 +4,13 @@ import {ProjectItem} from "../components/atoms/ProjectItem.tsx";
 import {BackButton} from "../components/atoms/BackButton.tsx";
 import {LanguageTag} from "../components/atoms/LanguageTag.tsx";
 import {useFilterLanguages} from "../hooks/useFilterLanguages.ts";
+import {useGithubData} from "../hooks/useGithubData.ts";
+import {Loader} from "../components/atoms/Loader.tsx";
 
 export const ProjectsPage = () => {
 
     const {allLanguages, selectedLanguages, toggleLanguage} = useFilterLanguages();
+    const {isLoading, data} = useGithubData()
 
     return (
         <Page showNavbar={false}>
@@ -31,37 +34,22 @@ export const ProjectsPage = () => {
             </div>
 
             <div className='w-full flex flex-col gap-y-12'>
-                <ProjectItem
-                    title={'Project Name 1'}
-                    description={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ad neque doloribus quod exercitationem est nulla reiciendis in unde eum.'}
-                    languages={[Language.Jetpack]}
-                    gitUrl='https://porfolio.dev/'
-                    webUrl='https://porfolio.dev/'
-                />
-
-                <ProjectItem
-                    title={'Project Name 1'}
-                    description={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ad neque doloribus quod exercitationem est nulla reiciendis in unde eum.'}
-                    languages={[Language.Swift, Language.Jetpack]}
-                    gitUrl='https://porfolio.dev/'
-                    webUrl='https://porfolio.dev/'
-                />
-
-                <ProjectItem
-                    title={'Project Name 1'}
-                    description={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ad neque doloribus quod exercitationem est nulla reiciendis in unde eum.'}
-                    languages={[Language.Jetpack, Language.Java]}
-                    gitUrl='https://porfolio.dev/'
-                    webUrl='https://porfolio.dev/'
-                />
-
-                <ProjectItem
-                    title={'Project Name 1'}
-                    description={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ad neque doloribus quod exercitationem est nulla reiciendis in unde eum.'}
-                    languages={[Language.Flutter]}
-                    gitUrl='https://porfolio.dev/'
-                    webUrl='https://porfolio.dev/'
-                />
+                {
+                    isLoading &&
+                    <Loader/>
+                }
+                {
+                    !isLoading &&
+                    data.length > 0 &&
+                    data.map(value => <ProjectItem
+                        key={value.id}
+                        title={value.name}
+                        description={value.description}
+                        gitUrl={value.url}
+                        languages={value.languages}
+                        webUrl={value.website}
+                    />)
+                }
             </div>
         </Page>
     );

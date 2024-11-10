@@ -9,7 +9,7 @@ interface PageProps {
 export const Page = ({children, showNavbar = true}: PageProps) => {
     return (
         <>
-            <div className='w-full h-auto flex flex-col justify-center items-center background-gradient'>
+            <div className='w-full h-auto flex flex-col justify-start items-center background-gradient min-h-[100vh]'>
                 {
                     showNavbar &&
                     <Navbar/>
