@@ -45,8 +45,6 @@ export const useGithubData = () => {
             const response = await githubAPI.get('/user/repos?sort=updated&type=public&direction=desc');
             const repos = response.data;
 
-            console.log(repos);
-
             const data = repos.map((repo: GithubData) => {
                 const languages = repo.topics.map(value => getLanguageFromTopic(value))
 
