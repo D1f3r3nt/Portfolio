@@ -1,8 +1,12 @@
 import {Github, LinkedIn, StackOverflow} from "../../../utils/icons.tsx";
 import {LinkButton} from "../../atoms/LinkButton.tsx";
 import {GITHUB, LINKEDIN, STACK_OVERFLOW} from "../../../utils/constants.ts";
+import {useData} from "../../../hooks/useData.ts";
+import {formater} from "../../../utils/formater.tsx";
 
 export const AboutHome = () => {
+    const {myData} = useData()
+
     return (
         <div className='w-full flex flex-col gap-y-12' id="about">
         <span className='font-bold'>
@@ -11,18 +15,9 @@ export const AboutHome = () => {
 
             <div className='w-full flex flex-col-reverse md:grid md:grid-cols-4'>
                 <div className='text-light md:pr-10 md:col-span-3'>
-                    {/*{formater()}*/}
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non ipsa sed hic illum ex corrupti quasi, corporis consequatur praesentium fugiat perferendis sunt molestias temporibus placeat magnam aspernatur sequi iure pariatur reprehenderit maxime doloremque ut facilis illo. Corrupti, vel et?
-
-                    <br/>
-                    <br/>
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non ipsa sed hic illum ex corrupti quasi, corporis consequatur praesentium fugiat perferendis sunt molestias temporibus placeat magnam aspernatur sequi iure pariatur reprehenderit maxime doloremque ut facilis illo. Corrupti, vel et?
-
-                    <br/>
-                    <br/>
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non ipsa sed hic illum ex corrupti quasi, corporis consequatur praesentium fugiat perferendis sunt molestias temporibus placeat magnam aspernatur sequi iure pariatur reprehenderit maxime doloremque ut facilis illo. Corrupti, vel et?
+                    {   myData &&
+                        formater(myData.description)
+                    }
                 </div>
 
                 <div className='flex flex-col mb-5 md:mb-0 items-center gap-y-4'>
