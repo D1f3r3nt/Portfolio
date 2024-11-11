@@ -6,11 +6,34 @@ import {LanguageTag} from "../components/atoms/LanguageTag.tsx";
 import {useFilterLanguages} from "../hooks/useFilterLanguages.ts";
 import {useGithubData} from "../hooks/useGithubData.ts";
 import {Loader} from "../components/atoms/Loader.tsx";
+import {useEffect, useState} from "react";
 
 export const ProjectsPage = () => {
 
     const {allLanguages, selectedLanguages, toggleLanguage} = useFilterLanguages();
     const {isLoading, data} = useGithubData()
+    const [currentProjects, setCurrentProjects] = useState(data)
+
+    useEffect(() => {
+        if (selectedLanguages.length === 0) {
+            setCurrentProjects(data)
+            return;
+        }
+
+        const filterProjects = data.filter(dato => {
+
+            for (const item of selectedLanguages) {
+                if (dato.languages.includes(item)) {
+                    return true;
+                }
+            }
+
+            return false;
+        })
+
+        setCurrentProjects(filterProjects)
+
+    }, [isLoading, data, selectedLanguages]);
 
     return (
         <Page showNavbar={false}>
@@ -40,8 +63,8 @@ export const ProjectsPage = () => {
                 }
                 {
                     !isLoading &&
-                    data.length > 0 &&
-                    data.map(value => <ProjectItem
+                    currentProjects.length > 0 &&
+                    currentProjects.map(value => <ProjectItem
                         key={value.id}
                         title={value.name}
                         description={value.description}
