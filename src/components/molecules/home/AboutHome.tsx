@@ -26,7 +26,7 @@ export const AboutHome = () => {
 
                 <div className='flex flex-col mb-5 md:mb-0 items-center gap-y-4'>
                     <img
-                        src="../../src/assets/icons/perfil.webp"
+                        src="/icons/perfil.webp"
                         alt="Profile image"
                         className='w-[175px] h-[175px] rounded border-[#FEF08A] border-2 mt-5'
                     />

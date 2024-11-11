@@ -6,7 +6,7 @@ export const DiferentNode = memo(() => {
     return (
         <CustomNode>
             <img
-                src="../../src/assets/icons/perfil.webp"
+                src="/icons/perfil.webp"
                 alt="Profile image"
                 className='w-full h-full rounded-full hover:scale-105'
             />

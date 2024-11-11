@@ -29,7 +29,7 @@ export const PresentationHome = () => {
                     </div>
                 </div>
                 <div className='flex justify-center'>
-                    <img src="../src/assets/icons/flat_web.svg" alt="Web developer" className='h-[125px] md:block hidden'/>
+                    <img src="/icons/flat_web.svg" alt="Web developer" className='h-[125px] md:block hidden'/>
                 </div>
             </div>
             <div className='w-full md:grid md:grid-cols-3'>
@@ -44,30 +44,30 @@ export const PresentationHome = () => {
                     onClick={() => {
                         navigateOutside(`mailto:${EMAIL}?subject=${SUBJECT}&body=${PRE_BODY}`)
                     }}
-                    src={"../src/assets/icons/dialog.svg"}
+                    src={"/icons/dialog.svg"}
                     label={"Contact me"}
                 />
                 <PresentationButton
                     onClick={() => {
                         // TODO: Dowload CV
                     }}
-                    src={"../src/assets/icons/download.svg"}
+                    src={"/icons/download.svg"}
                     label={"Download CV"}
                 />
                 <PresentationButton
                     onClick={() => {
                         navigate("/brain")
                     }}
-                    src={"../src/assets/icons/mind_map.svg"}
+                    src={"/icons/mind_map.svg"}
                     label={"Mind map"}
                 />
             </div>
             <div className='w-full grid grid-cols-2'>
                 <div className='flex justify-center'>
-                    <img src="../src/assets/icons/flat_cloud.svg" alt="Solution Architect" className='h-[125px] md:block hidden'/>
+                    <img src="/icons/flat_cloud.svg" alt="Solution Architect" className='h-[125px] md:block hidden'/>
                 </div>
                 <div className='flex justify-center'>
-                    <img src="../src/assets/icons/flat_mobile.svg" alt="Mobile developer" className='h-[125px] md:block hidden'/>
+                    <img src="/icons/flat_mobile.svg" alt="Mobile developer" className='h-[125px] md:block hidden'/>
                 </div>
             </div>
         </div>

@@ -21,7 +21,7 @@ export const ProjectItem = ({
   return (
       <div className='w-full flex align-top gap-x-2'>
           <div>
-              <img src="../src/assets/icons/check.svg" alt="Checkmark" className='min-w-[32px] w-[32px] h-auto'/>
+              <img src="/icons/check.svg" alt="Checkmark" className='min-w-[32px] w-[32px] h-auto'/>
           </div>
           <div className='flex flex-col gap-y-2'>
               <div className='font-bold'>
@@ -45,7 +45,7 @@ export const ProjectItem = ({
                   {
                       webUrl &&
                       <LinkButton href={webUrl} className='w-min flex justify-center items-center px-4 rounded-[12px]' >
-                          <img src="../src/assets/icons/link.svg" alt="Link" className='w-[18px] h-auto'/>
+                          <img src="/icons/link.svg" alt="Link" className='w-[18px] h-auto'/>
                           <span className='ml-1 text-[15px]'>Preview</span>
                       </LinkButton>
                   }
