@@ -36,7 +36,10 @@ export const ProjectItem = ({
               </div>
 
               <div className='text-light'>
-                  {formater(description)}
+                  {
+                      description !== null &&
+                      formater(description)
+                  }
               </div>
 
               <div className='flex gap-x-2'>

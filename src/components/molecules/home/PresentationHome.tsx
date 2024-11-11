@@ -4,10 +4,12 @@ import {PresentationButton} from "../../atoms/home/PresentationButton.tsx";
 import {navigateOutside} from "../../../helpers/helper.ts";
 import {useNavigate} from "react-router-dom";
 import {formater} from "../../../utils/formater.tsx";
+import {useData} from "../../../hooks/useData.ts";
 
 export const PresentationHome = () => {
 
     const navigate = useNavigate();
+    const {myData} = useData();
 
     return (
         <div className='w-full flex flex-col gap-y-8'>
@@ -29,10 +31,10 @@ export const PresentationHome = () => {
             </div>
             <div className='w-full md:grid md:grid-cols-3'>
                 <div className='text-light md:col-span-2'>
-                    {/*{formater()}*/}
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non ipsa sed hic illum ex corrupti
-                    quasi, corporis consequatur praesentium fugiat perferendis sunt molestias temporibus placeat magnam
-                    aspernatur sequi iure pariatur reprehenderit maxime doloremque ut facilis illo. Corrupti, vel et?
+                    {
+                        myData &&
+                        formater(myData.summary)
+                    }
                 </div>
             </div>
             <div className='w-full flex flex-wrap gap-2'>
