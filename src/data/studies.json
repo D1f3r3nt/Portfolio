@@ -1,0 +1,74 @@
+{
+  "certificates": [
+    {
+      "title": "Introduction to Web Development I",
+      "place": "Google",
+      "date": "Apr 2021"
+    },
+    {
+      "title": "Mobile Apps Development",
+      "place": "Google",
+      "date": "Jun 2021"
+    },
+    {
+      "title": "AWS Cloud Particioner Essentials",
+      "place": "Amazon Web Services (AWS)",
+      "date": "Dec 2021"
+    },
+    {
+      "title": "Introduction to Web Development II",
+      "place": "Google",
+      "date": "Jul 2022"
+    },
+    {
+      "title": "Google Cloud Computing",
+      "place": "Google",
+      "date": "Sep 2022"
+    },
+    {
+      "title": "Docker For Developers Certificate",
+      "place": "OpenWebinars",
+      "date": "Sep 2023"
+    },
+    {
+      "title": "UI/UX Design Certificate",
+      "place": "Keepcoding",
+      "date": "Sep 2023"
+    },
+    {
+      "title": "Design Patterns Certificate",
+      "place": "Keepcoding",
+      "date": "Oct 2023"
+    },
+    {
+      "title": "React Certificate",
+      "place": "Udemy",
+      "date": "Oct 2023"
+    },
+    {
+      "title": "SwiftUI Certificate",
+      "place": "Keepcoding",
+      "date": "Feb 2024"
+    },
+    {
+      "title": "Jetpack Compose Certificate",
+      "place": "Keepcoding",
+      "date": "Feb 2024"
+    },
+    {
+      "title": "Firebase Certificate",
+      "place": "Keepcoding",
+      "date": "Feb 2024"
+    },
+    {
+      "title": "Deployment iOS & Android Certificate",
+      "place": "Keepcoding",
+      "date": "Mar 2024"
+    },
+    {
+      "title": "AWS Certified Solutions Architect",
+      "place": "Amazon Web Services (AWS)",
+      "date": "Oct 2024 - Oct 2027"
+    }
+  ]
+}
