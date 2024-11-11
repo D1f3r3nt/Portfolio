@@ -2,6 +2,7 @@ import {useEffect, useState} from "react";
 
 interface ExperienceData {
     title: string;
+    place: string;
     date: string;
     description: string;
 }
@@ -35,7 +36,7 @@ export const useData = () => {
             setIsLoading(true);
 
             const resExp = await loadData('/experience.json');
-            setExperiences(resExp.data);
+            setExperiences(resExp.data.reverse());
 
             const resMy = await loadData('/me.json');
             setMyData(resMy);
