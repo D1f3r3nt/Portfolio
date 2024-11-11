@@ -1,3 +1,5 @@
+import {formater} from "../../../utils/formater.tsx";
+
 interface WorkingItemProps {
     job: string;
     site: string;
@@ -23,7 +25,7 @@ export const WorkingItem = ({
                   </div>
               </div>
               <div className='flex flex-col gap-2 pb-4 text-light md:col-span-3'>
-                  { description }
+                  { formater(description) }
               </div>
           </div>
       </li>

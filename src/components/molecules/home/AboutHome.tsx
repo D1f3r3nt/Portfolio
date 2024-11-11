@@ -11,6 +11,7 @@ export const AboutHome = () => {
 
             <div className='w-full flex flex-col-reverse md:grid md:grid-cols-4'>
                 <div className='text-light md:pr-10 md:col-span-3'>
+                    {/*{formater()}*/}
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non ipsa sed hic illum ex corrupti quasi, corporis consequatur praesentium fugiat perferendis sunt molestias temporibus placeat magnam aspernatur sequi iure pariatur reprehenderit maxime doloremque ut facilis illo. Corrupti, vel et?
 
                     <br/>

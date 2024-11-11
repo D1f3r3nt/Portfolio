@@ -2,6 +2,7 @@ import {Language} from "../../utils/language.ts";
 import {LanguageTag} from "./LanguageTag.tsx";
 import {LinkButton} from "./LinkButton.tsx";
 import {Github} from "../../utils/icons.tsx";
+import {formater} from "../../utils/formater.tsx";
 
 interface ProjectItemProps {
     title: string;
@@ -35,7 +36,7 @@ export const ProjectItem = ({
               </div>
 
               <div className='text-light'>
-                  {description}
+                  {formater(description)}
               </div>
 
               <div className='flex gap-x-2'>

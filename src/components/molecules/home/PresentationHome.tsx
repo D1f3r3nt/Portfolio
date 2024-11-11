@@ -3,6 +3,7 @@ import {EMAIL, JOB, NAME, PRE_BODY, SUBJECT} from "../../../utils/constants.ts";
 import {PresentationButton} from "../../atoms/home/PresentationButton.tsx";
 import {navigateOutside} from "../../../helpers/helper.ts";
 import {useNavigate} from "react-router-dom";
+import {formater} from "../../../utils/formater.tsx";
 
 export const PresentationHome = () => {
 
@@ -18,13 +19,7 @@ export const PresentationHome = () => {
                     </div>
                     <div className='text-[30px] strong-style'>
                         {
-                            JOB.split('\n').map((value, index) => {
-                                if (index === 0) {
-                                    return (<>{value}</>)
-                                } else {
-                                    return (<><br/>{value}</>)
-                                }
-                            })
+                            formater(JOB)
                         }
                     </div>
                 </div>
@@ -34,6 +29,7 @@ export const PresentationHome = () => {
             </div>
             <div className='w-full md:grid md:grid-cols-3'>
                 <div className='text-light md:col-span-2'>
+                    {/*{formater()}*/}
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non ipsa sed hic illum ex corrupti
                     quasi, corporis consequatur praesentium fugiat perferendis sunt molestias temporibus placeat magnam
                     aspernatur sequi iure pariatur reprehenderit maxime doloremque ut facilis illo. Corrupti, vel et?
