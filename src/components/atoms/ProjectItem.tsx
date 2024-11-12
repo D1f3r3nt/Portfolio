@@ -29,7 +29,7 @@ export const ProjectItem = ({
                   {title}
               </div>
 
-              <div className='flex gap-x-2'>
+              <div className='flex flex-wrap gap-2'>
                   {
                       languages?.map(value => <LanguageTag key={value} language={value}/>)
                   }
