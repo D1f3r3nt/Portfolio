@@ -1,19 +1,17 @@
 import {Navigate, Route, Routes} from "react-router-dom";
 import {HomePage} from "../pages/HomePage.tsx";
-import {AppsPage} from "../pages/AppsPage.tsx";
-import {ExperiencePage} from "../pages/ExperiencePage.tsx";
-import {AboutPage} from "../pages/AboutPage.tsx";
-import {StudiesPage} from "../pages/StudiesPage.tsx";
+import {ProjectsPage} from "../pages/ProjectsPage.tsx";
+import {CertificatesPage} from "../pages/CertificatesPage.tsx";
+import {BrainPage} from "../pages/BrainPage.tsx";
 
 export const AppRouter = () => {
 
     return (
         <Routes>
             <Route path='/' element={<HomePage />} />
-            <Route path='/apps' element={<AppsPage />} />
-            <Route path='/experience' element={<ExperiencePage />} />
-            <Route path='/about' element={<AboutPage />} />
-            <Route path='/studies' element={<StudiesPage />} />
+            <Route path='/projects' element={<ProjectsPage />} />
+            <Route path='/certificates' element={<CertificatesPage />} />
+            <Route path='/brain' element={<BrainPage />} />
             <Route path='/*' element={<Navigate to='/' />} />
         </Routes>
     )
