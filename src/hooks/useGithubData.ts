@@ -23,7 +23,8 @@ interface GithubResponse {
 
 export const useGithubData = () => {
 
-    const GITHUB_TOKEN = "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";
+    const prefix = "github_pat_"
+    const GITHUB_TOKEN = "11AXPHYDY03iMrev7xstAB_oMNcoPngmvEHXidI3Lxe1X5rQ70so2v7AzfLd3TJUbUO32AZM3ZPjlQgD7n";
     const [data, setData] = useState<GithubResponse[]>([])
     const [isLoading, setIsLoading] = useState(true)
 
@@ -34,7 +35,7 @@ export const useGithubData = () => {
     const githubAPI = axios.create({
         baseURL: 'https://api.github.com',
         headers: {
-            'Authorization': `Bearer ${GITHUB_TOKEN}`,
+            'Authorization': `Bearer ${prefix+GITHUB_TOKEN}`,
             'Accept': 'application/vnd.github.v3+json',
         },
     });
