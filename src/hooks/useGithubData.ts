@@ -23,7 +23,7 @@ interface GithubResponse {
 
 export const useGithubData = () => {
 
-    const GITHUB_TOKEN = "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";
+    const GITHUB_TOKEN = "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";
     const [data, setData] = useState<GithubResponse[]>([])
     const [isLoading, setIsLoading] = useState(true)
 
