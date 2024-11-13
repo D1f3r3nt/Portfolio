@@ -2,6 +2,7 @@ import axios from "axios";
 import {useEffect, useState} from "react";
 import {Language} from "../utils/language.ts";
 import {getLanguageFromTopic} from "../helpers/helper.ts";
+import {GITHUB_PROFILE} from "../utils/constants.ts";
 
 interface GithubData {
     id: string;
@@ -57,7 +58,7 @@ export const useGithubData = () => {
                     languages: languages,
                     website: repo.homepage
                 } as GithubResponse)
-            });
+            }).filter((repo: GithubData) => repo.name !== GITHUB_PROFILE);
 
             setData(data)
             setIsLoading(false)
