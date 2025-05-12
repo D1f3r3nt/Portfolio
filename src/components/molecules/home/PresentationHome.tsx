@@ -47,7 +47,7 @@ export const PresentationHome = () => {
                 />
                 <PresentationButton
                     onClick={() => {
-                        // TODO: Dowload CV
+                        window.open('/MarcSantistebanCV.pdf', '_blank');
                     }}
                     src={"/icons/download.svg"}
                     label={"Download CV"}
