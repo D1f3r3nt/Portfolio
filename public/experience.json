@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "title": "Fullstack Developer",
+      "title": "Backend Developer",
       "place": "Arteco Consulting SL",
       "date": "07/2022 - 06/2023",
-      "description": "My experience is focused on the meticulous creation of hourly budgets for projects, combined with effective team management, where I successfully led a team of 2 people, coordinating tasks and optimizing resources./tIn addition, I excel in my ability to design and develop the logic and web interface necessary to obtain detailed and accurate booking statistics, using innovative technologies to ensure efficiency and accuracy at every step of the process."
+      "description": "In this backend developer role I have managed the internal business logic of Melia Hotels, as well as other projects. I have also created complete integrations with other services in order to expose an API to the front end. I have worked with technologies such as Spring Boot, Spring Gateway and Spring Security. I have also had experience with Docker development, as well as development upload processes and container management in Argo. I have consumed data from relational and non-relational databases and have dealt with sending and receiving messages through Kafka queues."
     },
     {
-      "title": "Fullstack Web and Mobile Developer",
+      "title": "Full Stack Developer",
       "place": "Arteco Consulting SL",
       "date": "06/2023 - Present",
-      "description": "During my time at the company, I stand out for my ability to capture 2 new clients in both mobile and web./tIn addition, I was in charge of preparing detailed budgets for projects on both platforms. In the mobile sector, I led the architecture planning, ensuring a solid and efficient structure. I managed a team of 3 talented individuals in mobile development, facilitating their collaboration and maximizing productivity. I also provided key advice to the web development team, contributing to their growth and success./tMy role as the company's point of reference was fundamental in the creation of new screens and logics, consolidating our position as innovative leaders in the industry."
+      "description": "In this new role I have managed the development of complete new screens of an RMS, from the creation of the backend logic to the creation of the frontend design. Working with technologies like React, Jest, Cypress, SWR and fetch. Another milestone achieved in this new role is getting new projects for Melia. I have implemented in a project without testing, a complete testing with jest and cypress, reducing in 10 minutes the deployment time."
     }
   ]
 }
