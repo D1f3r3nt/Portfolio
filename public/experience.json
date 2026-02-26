@@ -9,8 +9,14 @@
     {
       "title": "Full Stack Developer",
       "place": "Arteco Consulting SL",
-      "date": "06/2023 - Present",
+      "date": "06/2023 - 06/2025",
       "description": "In this new role I have managed the development of complete new screens of an RMS, from the creation of the backend logic to the creation of the frontend design. Working with technologies like React, Jest, Cypress, SWR and fetch. Another milestone achieved in this new role is getting new projects for Melia. I have implemented in a project without testing, a complete testing with jest and cypress, reducing in 10 minutes the deployment time."
+    },
+    {
+      "title": "Senior Software Engineer",
+      "place": "Sopra Steria",
+      "date": "06/2025 - Present",
+      "description": "I performed Scrum Master responsibilities on multiple occasions, consistently ensuring the successful achievement of sprint objectives. I led a database modification initiative using Apache Cassandra, leveraging CQL and Python scripts to implement and validate changes. Additionally, I supported colleagues in front-end development and testing activities, contributing to overall team efficiency and code quality, and adapted quickly to international projects by collaborating effectively with clients and teams in multicultural environments."
     }
   ]
 }
